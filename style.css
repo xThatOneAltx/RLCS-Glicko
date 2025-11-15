@@ -87,8 +87,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
-    overflow: visible
     margin-left: -12px
+    overflow: visible
 }
 
 .inside-rating {
