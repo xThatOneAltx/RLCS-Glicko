@@ -67,7 +67,6 @@ body {
 .logo-block img {
     height: 50px;
     width: auto;
-    filter: brightness(0) invert(1); /* white icon style */
 }
 
 /* Gradient bar area */
