@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function renderItems(data) {
         contentDiv.innerHTML = "";
-        const maxRating = data[0].rating;
+        const maxRating = 2175;
 
         data.forEach(item => {
             const percent = (item.rating / maxRating) * 100;
