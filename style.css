@@ -57,6 +57,7 @@ body {
 .logo-block {
     width: 70px;
     min-width: 70px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
