@@ -81,6 +81,19 @@ body {
 .bar {
     height: 100%;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    overflow: visible
+}
+
+.inside-rating {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 6px black;
+    white-space: nowrap;
 }
 
 /* RLCS-style gradient palettes */
@@ -113,7 +126,7 @@ body {
     top: 50%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 18px;
     font-size: 1.1rem;
     font-weight: bold;
