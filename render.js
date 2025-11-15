@@ -47,11 +47,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
 
                 <div class="bar-wrapper">
-                    <div class="bar ${item.color}" style="width:${percent}%"></div>
+                    <div class="bar ${item.color}" style="width:${percent}%">
+                        <span class="inside-rating">${item.rating}</span>
+                    </div>
 
                     <div class="label">
                         <span>${item.name}</span>
-                        <span>${item.rating}</span>
                     </div>
                 </div>
             `;
