@@ -103,22 +103,6 @@ body {
 .bar.yellow { background: linear-gradient(90deg, #ffe27a, #e6c300 40%, #9c7c00); }
 .bar.magenta { background: linear-gradient(90deg, #ff8dff, #d400d4 40%, #7a007a); }
 
-/* shimmer (gloss effect) */
-.bar::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -150px;
-    width: 150px;
-    height: 100%;
-    background: linear-gradient(75deg, transparent 20%, rgba(255,255,255,0.25), transparent 80%);
-    animation: shimmer 3s infinite;
-}
-
-@keyframes shimmer {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(350%); }
-}
 
 /* Team name + rating */
 .label {
