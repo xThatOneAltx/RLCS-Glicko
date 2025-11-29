@@ -1,9 +1,8 @@
 async function loadTeams() {
-    const res = await fetch("data/Teams.json");  // <-- updated path
+    const res = await fetch("data/teams.json");  // <-- lowercase
     const teams = await res.json();
 
     teams.sort((a, b) => b.rating - a.rating);
-
     teamsSection.innerHTML = "";
 
     teams.slice(0, 20).forEach((team, index) => {
@@ -17,18 +16,18 @@ async function loadTeams() {
                 ${team.logo ? `<img src="${team.logo}" alt="">` : ""}
             </div>
         `;
+
         teamsSection.appendChild(div);
     });
 }
 
 async function loadPlayers() {
-    const res = await fetch("data/Players.json"); // <-- updated path
+    const res = await fetch("data/players.json"); // <-- lowercase
     const players = await res.json();
 
     if (players.length === 0) return;
 
     players.sort((a, b) => b.rating - a.rating);
-
     playersSection.innerHTML = "";
 
     players.slice(0, 50).forEach((p, i) => {
@@ -41,6 +40,7 @@ async function loadPlayers() {
                 ${p.rating} — ${p.name}
             </div>
         `;
+
         playersSection.appendChild(div);
     });
 }
