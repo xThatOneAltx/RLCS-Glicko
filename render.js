@@ -1,91 +1,46 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const contentDiv = document.getElementById("content");
-    const buttons = document.querySelectorAll(".tab-button");
-    const sectionHeader = document.getElementById("section-header");
+async function loadTeams() {
+    const res = await fetch("data/Teams.json");  // <-- updated path
+    const teams = await res.json();
 
-    const MAX_TEAMS = 20;
+    teams.sort((a, b) => b.rating - a.rating);
 
-    loadSection("teams");
-    setLastUpdated();
+    teamsSection.innerHTML = "";
 
-    buttons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            buttons.forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
-            loadSection(btn.dataset.target);
-        });
+    teams.slice(0, 20).forEach((team, index) => {
+        const div = document.createElement("div");
+        div.className = "entry";
+
+        div.innerHTML = `
+            <div class="rank">${index + 1}</div>
+            <div class="bar" style="background:${team.color};">
+                ${team.rating} — ${team.name}
+                ${team.logo ? `<img src="${team.logo}" alt="">` : ""}
+            </div>
+        `;
+        teamsSection.appendChild(div);
     });
+}
 
-    async function loadSection(type) {
-        sectionHeader.textContent =
-            type === "teams" ? "Top 20 Teams" : "Top Players";
+async function loadPlayers() {
+    const res = await fetch("data/Players.json"); // <-- updated path
+    const players = await res.json();
 
-        const response = await fetch(`data/${type}.json`);
-        let data = await response.json();
+    if (players.length === 0) return;
 
-        if (type === "teams") {
-            data.sort((a, b) => b.rating - a.rating);
-            data = data.slice(0, MAX_TEAMS);
-        }
+    players.sort((a, b) => b.rating - a.rating);
 
-        renderItems(data);
-    }
+    playersSection.innerHTML = "";
 
-    function renderItems(data) {
-        contentDiv.innerHTML = "";
-        const maxRating = 2175;
+    players.slice(0, 50).forEach((p, i) => {
+        const div = document.createElement("div");
+        div.className = "entry";
 
-        data.forEach(item => {
-            const percent = (item.rating / maxRating) * 100;
-
-            const row = document.createElement("div");
-            row.className = "list-item";
-
-            row.innerHTML = `
-                <div class="logo-block" style="background:${mapBlockColor(item.color)}">
-                    <img src="${item.logo}">
-                </div>
-
-                <div class="bar-wrapper">
-                    <div class="bar ${item.color}" style="width:${percent}%">
-                        <span class="inside-rating">${item.rating}</span>
-                    </div>
-
-                    <div class="label">
-                        <span>${item.name}</span>
-                    </div>
-                </div>
-            `;
-
-            contentDiv.appendChild(row);
-        });
-    }
-
-    function mapBlockColor(color) {
-        return {
-            green: "#1e8720",
-            blue: "#1f4c99",
-            red: "#a50000",
-            yellow: "#9c7c00",
-            magenta: "#7a007a"
-        }[color] || "#333";
-    }
-
-    /* Automatically get Last-Modified date from JSON file */
-    async function setLastUpdated() {
-        const res = await fetch("data/teams.json");
-        const modified = res.headers.get("Last-Modified");
-
-        if (modified) {
-            const date = new Date(modified);
-            const text = date.toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric"
-            });
-
-            document.getElementById("last-updated").textContent =
-                `(Last updated: ${text})`;
-        }
-    }
-});
+        div.innerHTML = `
+            <div class="rank">${i + 1}</div>
+            <div class="bar" style="background:purple;">
+                ${p.rating} — ${p.name}
+            </div>
+        `;
+        playersSection.appendChild(div);
+    });
+}
