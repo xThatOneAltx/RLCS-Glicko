@@ -2,25 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>RLCS Ratings</title>
+    <title>RLCS Glicko</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+<h1>RLCS Glicko</h1>
 
-    <div class="tabs">
-        <button class="tab-button active" data-target="teams">Teams</button>
-        <button class="tab-button" data-target="players">Players</button>
-    </div>
+<div class="nav">
+    <button id="teamsBtn" class="active">Teams</button>
+    <button id="playersBtn">Players</button>
+</div>
 
-    <h2 class="section-title">
-        <span id="section-header">Top 20 Teams</span>
-        <span id="last-updated" class="last-updated"></span>
-    </h2>
-
-    <div id="content"></div>
-
+<div id="teamsSection" class="section"></div>
+<div id="playersSection" class="section" style="display:none;">
+    <p class="placeholder">Players.json not yet populated.</p>
 </div>
 
 <script src="render.js"></script>
