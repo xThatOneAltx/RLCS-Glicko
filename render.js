@@ -40,10 +40,12 @@ function renderTeams(teams) {
     div.innerHTML = `
       <div class="rank-number">${i + 1}</div>
 
-      <div class="rank-bar ${team.color}" style="width: ${widthPercent}%;">
-        <img class="logo" src="${team.logo || ""}" />
-        <span class="rank-name">${team.name}</span>
-        <span class="rank-rating">${team.rating}</span>
+      <div class="rank-bar-wrapper">
+        <div class="rank-bar ${team.color}" style="width: ${widthPercent}%;">
+          <img class="logo" src="${team.logo || ""}">
+          <span class="rank-name">${team.name}</span>
+          <span class="rank-rating">${team.rating}</span>
+        </div>
       </div>
     `;
 
