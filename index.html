@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>RLCS Glicko</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RLCS Glicko Rankings</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <header>
+    <h1>RLCS Glicko Rankings</h1>
+  </header>
 
-<h1>RLCS Glicko (Finally)</h1>
+  <nav class="tabs">
+    <button class="tab-button active" data-tab="teams">Teams</button>
+    <button class="tab-button" data-tab="players">Players</button>
+  </nav>
 
-<div class="nav">
-    <button id="teamsBtn" class="active">Teams</button>
-    <button id="playersBtn">Players</button>
-</div>
+  <main>
+    <!-- TEAMS TAB -->
+    <section id="teams" class="tab active">
+      <div id="teams-list" class="list-container"></div>
+    </section>
 
-<div id="teamsSection" class="section"></div>
-<div id="playersSection" class="section" style="display:none;">
-    <p class="placeholder">Players.json not yet populated.</p>
-</div>
+    <!-- PLAYERS TAB -->
+    <section id="players" class="tab">
+      <div id="players-list" class="list-container">
+        <p class="no-data">No player data available yet.</p>
+      </div>
+    </section>
+  </main>
 
-<script src="render.js"></script>
+  <script src="render.js"></script>
 </body>
 </html>
