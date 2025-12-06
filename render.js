@@ -1,120 +1,97 @@
-/* ==========================
-   GLOBAL STYLE
-========================== */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0d0d0d;
-  color: white;
+// ================================
+// TAB SWITCHING
+// ================================
+document.querySelectorAll(".tab-button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+
+    btn.classList.add("active");
+    document.getElementById(btn.getAttribute("data-tab")).classList.add("active");
+  });
+});
+
+
+// ================================
+// LOAD JSON HELPERS
+// ================================
+async function loadJSON(path) {
+  const response = await fetch(path);
+  return await response.json();
 }
 
-header {
-  text-align: center;
-  padding: 20px 0;
+
+// ================================
+// RENDER TEAMS
+// ================================
+function renderTeams(teams) {
+  const container = document.getElementById("teams-list");
+  container.innerHTML = "";
+
+  teams
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 20)
+    .forEach((team, i) => {
+      const div = document.createElement("div");
+      div.className = "rank-entry";
+
+      div.innerHTML = `
+        <div class="rank-number">${i + 1}</div>
+
+        <div class="rank-bar ${team.color}">
+          <img class="logo" src="${team.logo || ""}" />
+          <span class="rank-name">${team.name}</span>
+          <span class="rank-rating">${team.rating}</span>
+        </div>
+      `;
+
+      container.appendChild(div);
+    });
 }
 
-h1 {
-  margin: 0;
-  font-size: 32px;
+
+// ================================
+// RENDER PLAYERS (later)
+// ================================
+function renderPlayers(players) {
+  const container = document.getElementById("players-list");
+  container.innerHTML = "";
+
+  if (!players.length) {
+    container.innerHTML = `<p class="no-data">No player data available yet.</p>`;
+    return;
+  }
+
+  players
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 50)
+    .forEach((player, i) => {
+      const div = document.createElement("div");
+      div.className = "rank-entry";
+
+      div.innerHTML = `
+        <div class="rank-number">${i + 1}</div>
+
+        <div class="rank-bar ${player.color}">
+          <span class="rank-name">${player.name}</span>
+          <span class="rank-rating">${player.rating}</span>
+        </div>
+      `;
+
+      container.appendChild(div);
+    });
 }
 
-/* ==========================
-   TAB NAVIGATION
-========================== */
-.tabs {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+
+// ================================
+// INITIAL LOAD
+// ================================
+async function init() {
+  const teams = await loadJSON("data/teams.json");
+  const players = await loadJSON("data/players.json");
+
+  renderTeams(teams);
+  renderPlayers(players);
 }
 
-.tab-button {
-  background: #222;
-  border: none;
-  padding: 12px 25px;
-  margin: 0 5px;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-
-.tab-button.active {
-  background: #444;
-}
-
-.tab {
-  display: none;
-}
-
-.tab.active {
-  display: block;
-}
-
-/* ==========================
-   RANK LIST
-========================== */
-.list-container {
-  width: 90%;
-  max-width: 900px;
-  margin: auto;
-}
-
-.rank-entry {
-  display: flex;
-  align-items: center;
-  margin: 14px 0;
-}
-
-.rank-number {
-  width: 40px;
-  font-size: 22px;
-  font-weight: bold;
-  opacity: 0.8;
-}
-
-.rank-bar {
-  flex-grow: 1;
-  height: 50px;
-  border-radius: 8px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding-left: 70px;
-  overflow: hidden;
-}
-
-.rank-bar img.logo {
-  position: absolute;
-  left: 10px;
-  width: 45px;
-  height: 45px;
-  object-fit: contain;
-}
-
-.rank-name {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.rank-rating {
-  position: absolute;
-  right: 12px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Bright color bar backgrounds */
-.green   { background: #008c3c; }
-.blue    { background: #003d99; }
-.red     { background: #8c0000; }
-.yellow  { background: #8c7b00; }
-.magenta { background: #8c008c; }
-
-/* "No data" text for empty players.json */
-.no-data {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 20px;
-  opacity: 0.7;
-}
+init();
