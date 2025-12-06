@@ -60,10 +60,16 @@ h1 {
   margin: auto;
 }
 
+.rank-bar-wrapper {
+  width: 100%;
+  display: block;
+}
+
 .rank-entry {
   display: flex;
   align-items: center;
   margin: 14px 0;
+  width: 100%; /* ADD THIS */
 }
 
 .rank-number {
@@ -74,14 +80,14 @@ h1 {
 }
 
 .rank-bar {
+  display: block;
   height: 50px;
   border-radius: 8px;
   position: relative;
-  display: flex;
-  align-items: center;
   padding-left: 70px;
   overflow: hidden;
   transition: width 0.3s ease;
+  max-width: 100%;
 }
 
 .rank-bar img.logo {
