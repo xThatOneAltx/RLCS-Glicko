@@ -1,46 +1,120 @@
-async function loadTeams() {
-    const res = await fetch("data/teams.json");  // <-- lowercase
-    const teams = await res.json();
-
-    teams.sort((a, b) => b.rating - a.rating);
-    teamsSection.innerHTML = "";
-
-    teams.slice(0, 20).forEach((team, index) => {
-        const div = document.createElement("div");
-        div.className = "entry";
-
-        div.innerHTML = `
-            <div class="rank">${index + 1}</div>
-            <div class="bar" style="background:${team.color};">
-                ${team.rating} — ${team.name}
-                ${team.logo ? `<img src="${team.logo}" alt="">` : ""}
-            </div>
-        `;
-
-        teamsSection.appendChild(div);
-    });
+/* ==========================
+   GLOBAL STYLE
+========================== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: white;
 }
 
-async function loadPlayers() {
-    const res = await fetch("data/players.json"); // <-- lowercase
-    const players = await res.json();
+header {
+  text-align: center;
+  padding: 20px 0;
+}
 
-    if (players.length === 0) return;
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
 
-    players.sort((a, b) => b.rating - a.rating);
-    playersSection.innerHTML = "";
+/* ==========================
+   TAB NAVIGATION
+========================== */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
-    players.slice(0, 50).forEach((p, i) => {
-        const div = document.createElement("div");
-        div.className = "entry";
+.tab-button {
+  background: #222;
+  border: none;
+  padding: 12px 25px;
+  margin: 0 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
 
-        div.innerHTML = `
-            <div class="rank">${i + 1}</div>
-            <div class="bar" style="background:purple;">
-                ${p.rating} — ${p.name}
-            </div>
-        `;
+.tab-button.active {
+  background: #444;
+}
 
-        playersSection.appendChild(div);
-    });
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+/* ==========================
+   RANK LIST
+========================== */
+.list-container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.rank-entry {
+  display: flex;
+  align-items: center;
+  margin: 14px 0;
+}
+
+.rank-number {
+  width: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.rank-bar {
+  flex-grow: 1;
+  height: 50px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+  overflow: hidden;
+}
+
+.rank-bar img.logo {
+  position: absolute;
+  left: 10px;
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.rank-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rank-rating {
+  position: absolute;
+  right: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Bright color bar backgrounds */
+.green   { background: #008c3c; }
+.blue    { background: #003d99; }
+.red     { background: #8c0000; }
+.yellow  { background: #8c7b00; }
+.magenta { background: #8c008c; }
+
+/* "No data" text for empty players.json */
+.no-data {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  opacity: 0.7;
 }
