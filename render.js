@@ -1,5 +1,5 @@
 // ================================
-// TAB SWITCHING
+// TAB
 // ================================
 document.querySelectorAll(".tab-button").forEach(btn => {
   btn.addEventListener("click", () => {
