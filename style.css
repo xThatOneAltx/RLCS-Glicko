@@ -80,7 +80,8 @@ h1 {
 }
 
 .rank-bar {
-  display: block;
+  display: flex;
+  align-items: center;
   height: 50px;
   border-radius: 8px;
   position: relative;
