@@ -28,29 +28,25 @@ function renderTeams(teams) {
   const container = document.getElementById("teams-list");
   container.innerHTML = "";
 
-  const sorted = teams.sort((a, b) => b.rating - a.rating).slice(0, 20);
-  const maxRating = sorted[0].rating; // #1 team rating
+  teams
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 20)
+    .forEach((team, i) => {
+      const div = document.createElement("div");
+      div.className = "rank-entry";
 
-  sorted.forEach((team, i) => {
-    const widthPercent = (team.rating / maxRating) * 100;
+      div.innerHTML = `
+        <div class="rank-number">${i + 1}</div>
 
-    const div = document.createElement("div");
-    div.className = "rank-entry";
-
-    div.innerHTML = `
-      <div class="rank-number">${i + 1}</div>
-
-      <div class="rank-bar-wrapper">
-        <div class="rank-bar ${team.color}" style="width: ${widthPercent}%;">
-          <img class="logo" src="${team.logo || ""}">
+        <div class="rank-bar ${team.color}">
+          <img class="logo" src="${team.logo || ""}" />
           <span class="rank-name">${team.name}</span>
           <span class="rank-rating">${team.rating}</span>
         </div>
-      </div>
-    `;
+      `;
 
-    container.appendChild(div);
-  });
+      container.appendChild(div);
+    });
 }
 
 
