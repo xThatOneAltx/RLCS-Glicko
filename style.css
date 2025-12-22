@@ -111,6 +111,16 @@ h1 {
   font-weight: bold;
 }
 
+.flag {
+  width: 22px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-left: 10px;   /* space from team logo area */
+  margin-right: 10px;  /* space before player name */
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
+}
+
 /* Bright color bar backgrounds */
 .green   { background: #008c3c; }
 .blue    { background: #003d99; }
