@@ -1,1 +1,5 @@
-[]
+[
+  { "name": "Vatira", "rating": 197, "team": "Karmine Corp", "country": "fr" },
+  { "name": "Rw9", "rating": 194, "team": "Team Falcons", "country": "sa" },
+  { "name": "juicy", "rating": 190, "team": "Karmine Corp", "country": "fr" }
+]
