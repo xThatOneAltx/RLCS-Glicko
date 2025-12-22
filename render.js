@@ -20,6 +20,22 @@ async function loadJSON(path) {
   return await response.json();
 }
 
+function buildTeamMap(teams) {
+  const map = {};
+  teams.forEach(t => {
+    map[t.name] = {
+      color: t.color || "blue",
+      logo: t.logo || ""
+    };
+  });
+  return map;
+}
+
+function flagUrl(countryCode) {
+  if (!countryCode) return "";
+  return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
+}
+
 
 // ================================
 // RENDER TEAMS
@@ -61,33 +77,47 @@ function renderTeams(teams) {
 // ================================
 // RENDER PLAYERS (later)
 // ================================
-function renderPlayers(players) {
+function renderPlayers(players, teamMap) {
   const container = document.getElementById("players-list");
   container.innerHTML = "";
 
-  if (!players.length) {
+  if (!players || players.length === 0) {
     container.innerHTML = `<p class="no-data">No player data available yet.</p>`;
     return;
   }
 
-  players
+  const sorted = [...players]
     .sort((a, b) => b.rating - a.rating)
-    .slice(0, 50)
-    .forEach((player, i) => {
-      const div = document.createElement("div");
-      div.className = "rank-entry";
+    .slice(0, 25);
 
-      div.innerHTML = `
-        <div class="rank-number">${i + 1}</div>
+  // rating is out of 200 (200 = full bar)
+  const maxRating = 200;
 
-        <div class="rank-bar ${player.color}">
+  sorted.forEach((player, i) => {
+    const safeRating = Number(player.rating) || 0;
+    const widthPercent = Math.max(0, Math.min(100, (safeRating / maxRating) * 100));
+
+    const teamInfo = teamMap[player.team] || { color: "blue", logo: "" };
+    const flag = flagUrl(player.country);
+
+    const div = document.createElement("div");
+    div.className = "rank-entry";
+
+    div.innerHTML = `
+      <div class="rank-number">${i + 1}</div>
+
+      <div class="rank-bar-wrapper">
+        <div class="rank-bar ${teamInfo.color}" style="width: ${widthPercent}%;">
+          ${teamInfo.logo ? `<img class="logo" src="${teamInfo.logo}">` : ""}
+          ${flag ? `<img class="flag" src="${flag}" alt="${player.country || ""}">` : ""}
           <span class="rank-name">${player.name}</span>
-          <span class="rank-rating">${player.rating}</span>
+          <span class="rank-rating">${safeRating}</span>
         </div>
-      `;
+      </div>
+    `;
 
-      container.appendChild(div);
-    });
+    container.appendChild(div);
+  });
 }
 
 
@@ -98,8 +128,10 @@ async function init() {
   const teams = await loadJSON("data/teams.json");
   const players = await loadJSON("data/players.json");
 
+  const teamMap = buildTeamMap(teams);
+
   renderTeams(teams);
-  renderPlayers(players);
+  renderPlayers(players, teamMap);
 }
 
 init();
