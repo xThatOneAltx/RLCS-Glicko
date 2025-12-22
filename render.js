@@ -94,8 +94,9 @@ function renderPlayers(players, teamMap) {
   const maxRating = 200;
 
   sorted.forEach((player, i) => {
-    const safeRating = Number(player.rating) || 0;
-    const widthPercent = Math.max(0, Math.min(100, (safeRating / maxRating) * 100));
+    const rawRating = Number(player.rating) || 0;
+    const displayRating = Math.round(rawRating);
+    const widthPercent = Math.max(0, Math.min(100, (rawRating / maxRating) * 100));
 
     const teamInfo = teamMap[player.team] || { color: "blue", logo: "" };
     const flag = flagUrl(player.country);
@@ -111,7 +112,7 @@ function renderPlayers(players, teamMap) {
           ${teamInfo.logo ? `<img class="logo" src="${teamInfo.logo}">` : ""}
           ${flag ? `<img class="flag" src="${flag}" alt="${player.country || ""}">` : ""}
           <span class="rank-name">${player.name}</span>
-          <span class="rank-rating">${safeRating}</span>
+          <span class="rank-rating">${displayRating}</span>
         </div>
       </div>
     `;
