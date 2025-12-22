@@ -116,7 +116,6 @@ h1 {
   height: 16px;
   object-fit: cover;
   border-radius: 3px;
-  margin-left: 10px;   /* space from team logo area */
   margin-right: 10px;  /* space before player name */
   box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
 }
