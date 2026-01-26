@@ -13,7 +13,7 @@ document.querySelectorAll(".tab-button").forEach(btn => {
 
 
 // ================================
-// LOAD
+// LOADING
 // ================================
 async function loadJSON(path) {
   const response = await fetch(path);
