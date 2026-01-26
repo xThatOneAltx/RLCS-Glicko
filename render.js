@@ -36,6 +36,16 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
+const TEAMS_LAST_UPDATED = "January 26, 2026";
+const PLAYERS_LAST_UPDATED = "January 26, 2026";
+
+function setLastUpdated() {
+  const t = document.getElementById("teams-updated");
+  const p = document.getElementById("players-updated");
+  if (t) t.textContent = `Last updated: ${TEAMS_LAST_UPDATED}`;
+  if (p) p.textContent = `Last updated: ${PLAYERS_LAST_UPDATED}`;
+}
+
 
 // ================================
 // RENDER TEAMS
@@ -133,6 +143,7 @@ async function init() {
 
   renderTeams(teams);
   renderPlayers(players, teamMap);
+  setLastUpdated();
 }
 
 init();
