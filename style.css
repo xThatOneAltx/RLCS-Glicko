@@ -94,8 +94,8 @@ h1 {
 .rank-bar img.logo {
   position: absolute;
   left: 10px;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 
