@@ -1,14 +1,14 @@
 [
-  { "name": "Vatira", "rating": 189, "team": "Karmine Corp", "country": "fr" },
+  { "name": "Vatira", "rating": 188, "team": "Karmine Corp", "country": "fr" },
   { "name": "Rw9", "rating": 185.1, "team": "Team Falcons", "country": "sa" },
-  { "name": "juicy", "rating": 171.2, "team": "Karmine Corp", "country": "fr" },
+  { "name": "juicy", "rating": 171.4, "team": "Karmine Corp", "country": "fr" },
   { "name": "Daniel", "rating": 185.3, "team": "NRG", "country": "us" },
-  { "name": "zen", "rating": 188, "team": "Team Vitality", "country": "fr" },
+  { "name": "zen", "rating": 188.1, "team": "Team Vitality", "country": "fr" },
   { "name": "Nwpo", "rating": 182, "team": "Twisted Minds", "country": "sa" },
   { "name": "Kiileerrz", "rating": 184.1, "team": "Team Falcons", "country": "sa" },
   { "name": "Atomic", "rating": 179.2, "team": "NRG", "country": "us" },
   { "name": "BeastMode", "rating": 184, "team": "NRG", "country": "us" },
-  { "name": "Atow.", "rating": 186.2, "team": "Karmine Corp", "country": "be" },
+  { "name": "Atow.", "rating": 186, "team": "Karmine Corp", "country": "be" },
   { "name": "trk511", "rating": 182.4, "team": "Twisted Minds", "country": "sa" },
   { "name": "dralii", "rating": 184.1, "team": "Team Falcons", "country": "ma" },
   { "name": "nass", "rating": 179, "team": "Gentle Mates", "country": "ma" },
@@ -20,7 +20,7 @@
   { "name": "swiftt.", "rating": 169, "team": "FURIA", "country": "br" },
   { "name": "yANXNZ", "rating": 173.1, "team": "FURIA", "country": "br" },
   { "name": "ApparentlyJack", "rating": 169, "team": "Geekay Esports", "country": "gb" },
-  { "name": "Joyo", "rating": 172.1, "team": "Geekay Esports", "country": "gb" },
+  { "name": "Joyo", "rating": 171.4, "team": "Geekay Esports", "country": "gb" },
   { "name": "Lj", "rating": 170.3, "team": "Shopify Rebellion", "country": "us" },
   { "name": "ExoTiiK", "rating": 173.2, "team": "Team Vitality", "country": "fr" },
   { "name": "Joreuz", "rating": 171.4, "team": "Ninjas in Pyjamas", "country": "nl" },
@@ -30,5 +30,6 @@
   { "name": "Chronic", "rating": 170, "team": "Spacestation Gaming", "country": "us" },
   { "name": "oaly.", "rating": 174, "team": "Ninjas in Pyjamas", "country": "nl" },
   { "name": "Tawk", "rating": 169, "team": "Virtus.pro", "country": "ca" },
-  { "name": "Wahvey", "rating": 170.4, "team": "Virtus.pro", "country": "us" }
+  { "name": "Wahvey", "rating": 170.4, "team": "Virtus.pro", "country": "us" },
+  { "name": "Seikoo", "rating": 171, "team": "Virtus.pro", "country": "fr" }
 ]
