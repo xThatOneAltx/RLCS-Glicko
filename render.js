@@ -37,7 +37,7 @@ function flagUrl(countryCode) {
 }
 
 const TEAMS_LAST_UPDATED = "February 22, 2026 - 2:45pm EST";
-const PLAYERS_LAST_UPDATED = "February 22, 2026 - 12:45pm EST";
+const PLAYERS_LAST_UPDATED = "February 22, 2026 - 2:45pm EST";
 
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
