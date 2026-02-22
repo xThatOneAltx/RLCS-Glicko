@@ -21,7 +21,7 @@
   { "name": "yANXNZ", "rating": 173.1, "team": "FURIA", "country": "br" },
   { "name": "ApparentlyJack", "rating": 169, "team": "Geekay Esports", "country": "gb" },
   { "name": "Joyo", "rating": 171.4, "team": "Geekay Esports", "country": "gb" },
-  { "name": "Lj", "rating": 171.1, "team": "Shopify Rebellion", "country": "us" },
+  { "name": "Lj", "rating": 169, "team": "Shopify Rebellion", "country": "us" },
   { "name": "ExoTiiK", "rating": 173.2, "team": "Team Vitality", "country": "fr" },
   { "name": "Joreuz", "rating": 171.3, "team": "Ninjas in Pyjamas", "country": "nl" },
   { "name": "kofyr", "rating": 169, "team": "Shopify Rebellion", "country": "us" },
@@ -31,5 +31,5 @@
   { "name": "oaly.", "rating": 173, "team": "Ninjas in Pyjamas", "country": "nl" },
   { "name": "Tawk", "rating": 169, "team": "Virtus.pro", "country": "ca" },
   { "name": "Wahvey", "rating": 170.4, "team": "Virtus.pro", "country": "us" },
-  { "name": "Seikoo", "rating": 171, "team": "Geekay Esports", "country": "fr" }
+  { "name": "Seikoo", "rating": 170.3, "team": "Geekay Esports", "country": "fr" }
 ]
