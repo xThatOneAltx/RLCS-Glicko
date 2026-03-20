@@ -1,7 +1,7 @@
 [
   {"name": "Team Falcons", "rating": 2020, "color": "green",
    "logo": "https://pyroblocks.github.io/src/logos/Team%20Falcons.webp"},
-  {"name": "NRG", "rating": 2021, "color": "red",
+  {"name": "NRG", "rating": 2017, "color": "red",
    "logo": "https://pyroblocks.github.io/src/logos/NRG%20Esports.webp"},
   {"name": "Gentle Mates", "rating": 2038, "color": "blue",
    "logo": "https://pyroblocks.github.io/src/logos/Gentle%20Mates.webp"},
@@ -11,7 +11,7 @@
    "logo": "https://pyroblocks.github.io/src/logos/Twisted%20Minds.webp"},
   {"name": "Team Vitality", "rating": 2035, "color": "blue",
    "logo": "https://pyroblocks.github.io/src/logos/Team%20Vitality.webp"},
-  {"name": "Shopify Rebellion", "rating": 1931, "color": "red",
+  {"name": "Shopify Rebellion", "rating": 1936, "color": "red",
    "logo": "https://pyroblocks.github.io/src/logos/Shopify%20Rebellion.webp"},
   {"name": "Geekay Esports", "rating": 1940, "color": "blue",
    "logo": "https://pyroblocks.github.io/src/logos/Geekay%20Esports.webp"},
@@ -41,10 +41,10 @@
    "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
   {"name": "NOVO Esports", "rating": 1797, "color": "blue",
    "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
-  {"name": "Virtus.pro", "rating": 1939, "color": "red",
+  {"name": "Virtus.pro", "rating": 1921, "color": "red",
    "logo": "https://pyroblocks.github.io/src/logos/Virtus.pro.webp"},
   {"name": "Amethyst", "rating": 1798, "color": "yellow",
    "logo": "https://pyroblocks.github.io/src/logos/Amethyst.webp"},
-  {"name": "Dignitas", "rating": 1778, "color": "red",
+  {"name": "Dignitas", "rating": 1799, "color": "red",
    "logo": "https://pyroblocks.github.io/src/logos/Dignitas.webp"}
 ]
