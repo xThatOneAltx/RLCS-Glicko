@@ -13,7 +13,7 @@
    "logo": "https://pyroblocks.github.io/src/logos/Team%20Vitality.webp"},
   {"name": "Shopify Rebellion", "rating": 1927, "color": "red",
    "logo": "https://pyroblocks.github.io/src/logos/Shopify%20Rebellion.webp"},
-  {"name": "Geekay Esports", "rating": 1908, "color": "blue",
+  {"name": "Geekay Esports", "rating": 1882, "color": "blue",
    "logo": "https://pyroblocks.github.io/src/logos/Geekay%20Esports.webp"},
   {"name": "Ninjas in Pyjamas", "rating": 1890, "color": "blue",
    "logo": "https://pyroblocks.github.io/src/logos/Ninjas%20in%20Pyjamas.webp"},
@@ -49,6 +49,6 @@
    "logo": "https://pyroblocks.github.io/src/logos/Dignitas.webp"},
   {"name": "PWR", "rating": 1808, "color": "magenta",
    "logo": "https://pyroblocks.github.io/src/logos/PWR.webp"},
-  {"name": "Kaydop Corp", "rating": 1794, "color": "blue",
+  {"name": "Kaydop Corp", "rating": 1827, "color": "blue",
    "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"}
 ]
