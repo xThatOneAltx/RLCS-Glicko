@@ -6,9 +6,9 @@
   {"name": "Ninjas in Pyjamas", "rating": 1900, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Ninjas%20in%20Pyjamas.webp"},
   {"name": "Geekay Esports", "rating": 1835, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Geekay%20Esports.webp"},
   {"name": "Kaydop Corp", "rating": 1820, "color": "blue", "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"},
-  {"name": "TRB", "rating": 1773, "color": "blue", "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"},
-  {"name": "NOVO Esports", "rating": 1771, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
-  {"name": "Magnifico", "rating": 1760, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
+  {"name": "TRB", "rating": 1774, "color": "blue", "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"},
+  {"name": "NOVO Esports", "rating": 1772, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
+  {"name": "Magnifico", "rating": 1761, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
 
   {"name": "NRG", "rating": 1997, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/NRG%20Esports.webp"},
   {"name": "Spacestation Gaming", "rating": 1928, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Spacestation%20Gaming.webp"},
@@ -23,10 +23,10 @@
   {"name": "Twisted Minds", "rating": 1905, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/Twisted%20Minds.webp"},
   {"name": "R8 Esports", "rating": 1904, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/R8%20Esports.webp"},
 
-  {"name": "FURIA", "rating": 1896, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/FURIA%20Esports.webp"},
-  {"name": "MIBR", "rating": 1861, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/MIBR.webp"},
-  {"name": "Team Secret", "rating": 1778, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/Team%20Secret.webp"},
-  {"name": "BS+COMPETITION", "rating": 1715, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/BSCOMPETITION.webp"},
+  {"name": "FURIA", "rating": 1911, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/FURIA%20Esports.webp"},
+  {"name": "MIBR", "rating": 1872, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/MIBR.webp"},
+  {"name": "Team Secret", "rating": 1749, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/Team%20Secret.webp"},
+  {"name": "BS+COMPETITION", "rating": 1703, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/BSCOMPETITION.webp"},
 
   {"name": "Wildcard", "rating": 1829, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/Wildcard.webp"},
   {"name": "PWR", "rating": 1828, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/PWR.webp"}
