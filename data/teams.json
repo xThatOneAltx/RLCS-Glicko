@@ -23,10 +23,10 @@
   {"name": "Twisted Minds", "rating": 1905, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/Twisted%20Minds.webp"},
   {"name": "R8 Esports", "rating": 1904, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/R8%20Esports.webp"},
 
-  {"name": "FURIA", "rating": 1920, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/FURIA%20Esports.webp"},
+  {"name": "FURIA", "rating": 1930, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/FURIA%20Esports.webp"},
   {"name": "MIBR", "rating": 1869, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/MIBR.webp"},
-  {"name": "Team Secret", "rating": 1749, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/Team%20Secret.webp"},
-  {"name": "BS+COMPETITION", "rating": 1703, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/BSCOMPETITION.webp"},
+  {"name": "Team Secret", "rating": 1730, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/Team%20Secret.webp"},
+  {"name": "BS+COMPETITION", "rating": 1688, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/BSCOMPETITION.webp"},
 
   {"name": "Wildcard", "rating": 1829, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/Wildcard.webp"},
   {"name": "PWR", "rating": 1828, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/PWR.webp"}
