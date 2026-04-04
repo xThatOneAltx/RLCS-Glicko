@@ -10,14 +10,14 @@
   {"name": "NOVO Esports", "rating": 1773, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
   {"name": "Magnifico", "rating": 1762, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
 
-  {"name": "NRG", "rating": 1997, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/NRG%20Esports.webp"},
-  {"name": "Spacestation Gaming", "rating": 1928, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Spacestation%20Gaming.webp"},
-  {"name": "Shopify Rebellion", "rating": 1908, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Shopify%20Rebellion.webp"},
-  {"name": "Virtus.pro", "rating": 1890, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Virtus.pro.webp"},
-  {"name": "FUT Esports", "rating": 1881, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/FUT%20Esports.webp"},
-  {"name": "M80", "rating": 1755, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/M80.webp"},
-  {"name": "Gen.G Mobil1 Racing", "rating": 1742, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Gen.G%20Mobil1%20Racing.webp"},
-  {"name": "Dignitas", "rating": 1742, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Dignitas.webp"},
+  {"name": "NRG", "rating": 1983, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/NRG%20Esports.webp"},
+  {"name": "Spacestation Gaming", "rating": 1938, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Spacestation%20Gaming.webp"},
+  {"name": "Shopify Rebellion", "rating": 1912, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Shopify%20Rebellion.webp"},
+  {"name": "Virtus.pro", "rating": 1898, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Virtus.pro.webp"},
+  {"name": "FUT Esports", "rating": 1871, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/FUT%20Esports.webp"},
+  {"name": "M80", "rating": 1727, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/M80.webp"},
+  {"name": "Gen.G Mobil1 Racing", "rating": 1756, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Gen.G%20Mobil1%20Racing.webp"},
+  {"name": "Dignitas", "rating": 1737, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Dignitas.webp"},
 
   {"name": "Team Falcons", "rating": 1961, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/Team%20Falcons.webp"},
   {"name": "Twisted Minds", "rating": 1930, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/Twisted%20Minds.webp"},
@@ -28,6 +28,6 @@
   {"name": "Team Secret", "rating": 1730, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/Team%20Secret.webp"},
   {"name": "BS+COMPETITION", "rating": 1688, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/BSCOMPETITION.webp"},
 
-  {"name": "Wildcard", "rating": 1829, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/Wildcard.webp"},
-  {"name": "PWR", "rating": 1828, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/PWR.webp"}
+  {"name": "Wildcard", "rating": 1834, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/Wildcard.webp"},
+  {"name": "PWR", "rating": 1830, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/PWR.webp"}
 ]
