@@ -36,7 +36,7 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
-const TEAMS_LAST_UPDATED = "April 10, 2026";
+const TEAMS_LAST_UPDATED = "April 12, 2026 - 4:00pm EST";
 const PLAYERS_LAST_UPDATED = "April 4, 2026";
 
 function setLastUpdated() {
