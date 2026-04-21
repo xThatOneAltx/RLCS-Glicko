@@ -1,7 +1,7 @@
 [
   { "name": "zen", "rating": 189.1, "team": "Team Vitality", "country": "fr" },
   { "name": "Vatira", "rating": 188, "team": "Karmine Corp", "country": "fr" },
-  { "name": "Daniel", "rating": 181.3, "team": "NRG", "country": "us" },
+  { "name": "Daniel", "rating": 181, "team": "NRG", "country": "us" },
   { "name": "Atow.", "rating": 181.3, "team": "Karmine Corp", "country": "be" },
   { "name": "Rw9", "rating": 181.1, "team": "Team Falcons", "country": "sa" },
   { "name": "BeastMode", "rating": 182.1, "team": "NRG", "country": "us" },
@@ -10,7 +10,7 @@
   { "name": "trk511", "rating": 181.1, "team": "Twisted Minds", "country": "sa" },
   { "name": "nass", "rating": 181.4, "team": "Gentle Mates", "country": "ma" },
   { "name": "dralii", "rating": 178, "team": "Team Falcons", "country": "ma" },
-  { "name": "Atomic", "rating": 177.2, "team": "NRG", "country": "us" },
+  { "name": "Atomic", "rating": 178.1, "team": "NRG", "country": "us" },
   { "name": "Archie", "rating": 179.2, "team": "Gentle Mates", "country": "gb" },
   { "name": "Firstkiller", "rating": 179, "team": "Shopify Rebellion", "country": "us" },
   { "name": "Nwpo", "rating": 180, "team": "Twisted Minds", "country": "sa" },
