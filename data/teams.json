@@ -1,6 +1,6 @@
 [
   {"name": "Team Vitality", "rating": 2008, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Team%20Vitality.webp"},
-  {"name": "Karmine Corp", "rating": 1986, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Karmine%20Corp.webp"},
+  {"name": "Karmine Corp", "rating": 1984, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Karmine%20Corp.webp"},
   {"name": "Gentle Mates", "rating": 2021, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Gentle%20Mates.webp"},
   {"name": "Man City Esports", "rating": 1871, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Manchester%20City%20Esports.webp"},
   {"name": "Ninjas in Pyjamas", "rating": 1932, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Ninjas%20in%20Pyjamas.webp"},
@@ -8,7 +8,7 @@
   {"name": "Kaydop Corp", "rating": 1847, "color": "blue", "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"},
   {"name": "Griddy Goose", "rating": 1808, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/GriddyGoose.webp"},
   {"name": "NOVO Esports", "rating": 1824, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
-  {"name": "Magnifico", "rating": 1803, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
+  {"name": "Magnifico", "rating": 1780, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
 
   {"name": "NRG", "rating": 1965, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/NRG%20Esports.webp"},
   {"name": "Spacestation Gaming", "rating": 1935, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Spacestation%20Gaming.webp"},
