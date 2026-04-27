@@ -1,19 +1,21 @@
 [
-  {"name": "Team Vitality", "rating": 1997, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Team%20Vitality.webp"},
+  {"name": "Team Vitality", "rating": 2015, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Team%20Vitality.webp"},
   {"name": "Karmine Corp", "rating": 1963, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Karmine%20Corp.webp"},
   {"name": "Gentle Mates", "rating": 2019, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Gentle%20Mates.webp"},
   {"name": "Man City Esports", "rating": 1879, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Manchester%20City%20Esports.webp"},
-  {"name": "Ninjas in Pyjamas", "rating": 1936, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Ninjas%20in%20Pyjamas.webp"},
+  {"name": "Ninjas in Pyjamas", "rating": 1939, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Ninjas%20in%20Pyjamas.webp"},
   {"name": "Geekay Esports", "rating": 1778, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Geekay%20Esports.webp"},
   {"name": "Kaydop Corp", "rating": 1873, "color": "blue", "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"},
   {"name": "Griddy Goose", "rating": 1784, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/GriddyGoose.webp"},
   {"name": "NOVO Esports", "rating": 1860, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
   {"name": "Magnifico", "rating": 1778, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
 
+  {"name": "FURIA", "rating": 1888, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/FURIA%20Esports.webp"},
+
   {"name": "NRG", "rating": 1965, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/NRG%20Esports.webp"},
   {"name": "Spacestation Gaming", "rating": 1935, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Spacestation%20Gaming.webp"},
   {"name": "Shopify Rebellion", "rating": 1940, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Shopify%20Rebellion.webp"},
-  {"name": "Virtus.pro", "rating": 1870, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Virtus.pro.webp"},
+  {"name": "Virtus.pro", "rating": 1860, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Virtus.pro.webp"},
   {"name": "FUT Esports", "rating": 1888, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/FUT%20Esports.webp"},
   {"name": "M80", "rating": 1682, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/M80.webp"},
   {"name": "Gen.G Mobil1 Racing", "rating": 1716, "color": "red", "logo": "https://pyroblocks.github.io/src/logos/Gen.G%20Mobil1%20Racing.webp"},
@@ -23,8 +25,8 @@
   {"name": "Twisted Minds", "rating": 1952, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/Twisted%20Minds.webp"},
   {"name": "R8 Esports", "rating": 1911, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/R8%20Esports.webp"},
 
-  {"name": "FURIA", "rating": 1911, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/FURIA%20Esports.webp"},
-  {"name": "MIBR", "rating": 1867, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/MIBR.webp"},
+  
+  {"name": "MIBR", "rating": 1868, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/MIBR.webp"},
   {"name": "Team Secret", "rating": 1691, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/Team%20Secret.webp"},
   {"name": "BS+COMPETITION", "rating": 1701, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/BSCOMPETITION.webp"},
 
