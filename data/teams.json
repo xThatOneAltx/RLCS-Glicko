@@ -5,9 +5,9 @@
   {"name": "Man City Esports", "rating": 1879, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Manchester%20City%20Esports.webp"},
   {"name": "Ninjas in Pyjamas", "rating": 1939, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Ninjas%20in%20Pyjamas.webp"},
   {"name": "Geekay Esports", "rating": 1778, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Geekay%20Esports.webp"},
-  {"name": "Kaydop Corp", "rating": 1873, "color": "blue", "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"},
+  {"name": "Kaydop Corp", "rating": 1861, "color": "blue", "logo": "https://i.postimg.cc/yxbf0hZL/Default.png"},
   {"name": "Griddy Goose", "rating": 1784, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/GriddyGoose.webp"},
-  {"name": "NOVO Esports", "rating": 1860, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
+  {"name": "NOVO Esports", "rating": 1864, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/NOVO%20Esports.webp"},
   {"name": "Magnifico", "rating": 1778, "color": "blue", "logo": "https://pyroblocks.github.io/src/logos/Magnifico.webp"},
 
   {"name": "FURIA", "rating": 1888, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/FURIA%20Esports.webp"},
@@ -26,10 +26,10 @@
   {"name": "R8 Esports", "rating": 1911, "color": "green", "logo": "https://pyroblocks.github.io/src/logos/R8%20Esports.webp"},
 
   
-  {"name": "MIBR", "rating": 1868, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/MIBR.webp"},
+  {"name": "MIBR", "rating": 1878, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/MIBR.webp"},
   {"name": "Team Secret", "rating": 1691, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/Team%20Secret.webp"},
   {"name": "BS+COMPETITION", "rating": 1701, "color": "yellow", "logo": "https://pyroblocks.github.io/src/logos/BSCOMPETITION.webp"},
 
-  {"name": "Wildcard", "rating": 1807, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/Wildcard.webp"},
+  {"name": "Wildcard", "rating": 1827, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/Wildcard.webp"},
   {"name": "PWR", "rating": 1785, "color": "magenta", "logo": "https://pyroblocks.github.io/src/logos/PWR.webp"}
 ]
