@@ -37,13 +37,13 @@ function flagUrl(countryCode) {
 }
 
 const TEAMS_LAST_UPDATED = "April 26, 2026";
-const PLAYERS_LAST_UPDATED = "April 25, 2026";
+const PLAYERS_LAST_UPDATED = "May 2, 2026 - MODEL UPDATE v1.2";
 
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
   const p = document.getElementById("players-updated");
-  if (t) t.textContent = `Last updated: ${TEAMS_LAST_UPDATED}`;
-  if (p) p.textContent = `Last updated: ${PLAYERS_LAST_UPDATED}`;
+  if (t) t.textContent = `LAST UPDATED: ${TEAMS_LAST_UPDATED}`;
+  if (p) p.textContent = `LAST UPDATED: ${PLAYERS_LAST_UPDATED}`;
 }
 
 
