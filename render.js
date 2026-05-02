@@ -98,7 +98,7 @@ function renderPlayers(players, teamMap) {
 
   const sorted = [...players]
     .sort((a, b) => b.rating - a.rating)
-    .slice(0, 25);
+    .slice(0, 50);
 
   // rating is out of 200 (200 = full bar)
   const maxRating = 200;
