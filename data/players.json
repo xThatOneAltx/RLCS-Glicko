@@ -54,5 +54,6 @@
   { "name": "Nico", "rating": 163.08, "team": "NOVO Esports", "country": "dk" },
   { "name": "rehzzy", "rating": 162.89, "team": "NOVO Esports", "country": "gb" },
   { "name": "Motta", "rating": 162.49, "team": "BANANA", "country": "br" },
-  { "name": "Fever", "rating": 162.36, "team": "Wildcard", "country": "au" }
+  { "name": "Fever", "rating": 162.36, "team": "Wildcard", "country": "au" },
+  { "name": "Accro", "rating": 170.03, "team": "Man City Esports", "country": "gb" }
 ]
