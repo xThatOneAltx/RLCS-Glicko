@@ -42,7 +42,7 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
-const TEAMS_LAST_UPDATED = "April 26, 2026";
+const TEAMS_LAST_UPDATED = "May 12, 2026 - SAUDI eLEAGUE ADDED";
 const PLAYERS_LAST_UPDATED = "May 2, 2026 - MODEL UPDATE v1.2";
 
 function setLastUpdated() {
