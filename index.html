@@ -16,6 +16,7 @@
   <nav class="tabs">
     <button class="tab-button active" data-tab="teams">Teams</button>
     <button class="tab-button" data-tab="players">Players</button>
+    <button class="tab-button" data-tab="info">Info</button>
   </nav>
 
   <main>
@@ -34,6 +35,63 @@
         <p class="no-data">No player data available yet.</p>
       </div>
       <div class="last-updated" id="players-updated"></div>
+    </section>
+
+    <section id="info" class="tab">
+      <div class="info-container">
+        <h2>Prediction Accuracy</h2>
+        <p><strong>Overall Prediction Rate:</strong> ~81%</p>
+        <p><strong>LAN Prediction Rate:</strong> ~77%</p>
+
+        <h2>Overview</h2>
+        <p>
+          <strong>RLCS Glicko</strong> is designed with one goal in mind:
+          predicting RLCS matches as accurately as possible.
+        </p>
+
+        <p>
+          At its core, the system combines an Elo-style team rating model
+          with statistically derived player ratings to estimate team strength
+          and predict match outcomes. Ratings are continuously updated based
+          on performance, with an emphasis on both consistency and recent form.
+        </p>
+
+        <h2>Team Ratings</h2>
+        <p>
+          Initial team ratings are generated directly from player ratings.
+          From there, ratings adjust after every match based on wins and losses
+          using the
+          <a href="https://en.wikipedia.org/wiki/Glicko_rating_system" target="_blank">
+            Glicko rating system
+          </a>.
+        </p>
+
+        <p>
+          Not all matches are weighted equally. International LAN events carry
+          the highest importance, while online matches — particularly
+          non-elimination matches — have lower weighting.
+        </p>
+
+        <h2>Player Ratings</h2>
+        <p>
+          Player ratings are calculated at the conclusion of every event using
+          a combination of individual performance metrics and team success.
+        </p>
+
+        <p>
+          Unlike team ratings, player ratings are intended to estimate a player's
+          underlying ability over a longer period of time while still placing
+          greater emphasis on recent performances.
+        </p>
+
+        <p>
+          Match importance also affects player ratings. LAN performances are
+          weighted more heavily than online matches, while elimination matches
+          carry more significance than lower-stakes series. These ratings are
+          designed to best estimate player quality and improve prediction
+          accuracy for newly formed teams.
+        </p>
+      </div>
     </section>
   </main>
 
