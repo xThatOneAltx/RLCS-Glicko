@@ -164,3 +164,30 @@ h1 {
   font-size: 14px;
   opacity: 0.75;
 }
+
+.info-container {
+  width: 90%;
+  max-width: 750px;
+  margin: auto;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.info-container h2 {
+  margin-top: 28px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.info-container p {
+  opacity: 0.95;
+}
+
+.info-container a {
+  color: #8cb4ff;
+  text-decoration: none;
+}
+
+.info-container a:hover {
+  text-decoration: underline;
+}
