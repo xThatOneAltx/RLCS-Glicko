@@ -191,3 +191,34 @@ h1 {
 .info-container a:hover {
   text-decoration: underline;
 }
+
+.support-container {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.support-container h2 {
+  margin-bottom: 18px;
+  font-size: 28px;
+}
+
+.coffee-button {
+  display: inline-block;
+  margin-top: 20px;
+  background: #29abe0;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.15s ease;
+}
+
+.coffee-button:hover {
+  transform: scale(1.05);
+}
