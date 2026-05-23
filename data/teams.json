@@ -2,7 +2,7 @@
   {"name": "Karmine Corp", "rating": 2013, "color": "blue", "logo": "logos/KC.png"},
   {"name": "Team Vitality", "rating": 2007, "color": "blue", "logo": "logos/VIT.png"},
   {"name": "Gentle Mates", "rating": 2015, "color": "blue", "logo": "logos/M8.png"},
-  {"name": "Man City Esports", "rating": 1927, "color": "blue", "logo": "logos/MC.png"},
+  {"name": "Man City Esports", "rating": 1906, "color": "blue", "logo": "logos/MC.png"},
   {"name": "Ninjas in Pyjamas", "rating": 1884, "color": "blue", "logo": "logos/NIP.png"},
   {"name": "Geekay Esports", "rating": 1778, "color": "blue", "logo": "logos/GK.png"},
   {"name": "Kaydop Corp", "rating": 1861, "color": "blue", "logo": "logos/DEFAULT.png"},
@@ -14,7 +14,7 @@
 
   {"name": "NRG", "rating": 1925, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "rating": 1949, "color": "red", "logo": "logos/SSG.png"},
-  {"name": "Shopify Rebellion", "rating": 1956, "color": "red", "logo": "logos/SR.png"},
+  {"name": "Shopify Rebellion", "rating": 1961, "color": "red", "logo": "logos/SR.png"},
   {"name": "Virtus.pro", "rating": 1860, "color": "red", "logo": "logos/VP.png"},
   {"name": "FUT Esports", "rating": 1882, "color": "red", "logo": "logos/FUT.png"},
   {"name": "M80", "rating": 1682, "color": "red", "logo": "logos/DEFAULT.png"},
