@@ -223,15 +223,15 @@ h1 {
   transform: scale(1.05);
 }
 
-.liquipedia-link {
+.liquipedia-link img {
+  width: 18px;
+  height: 18px;
   margin-left: 8px;
-  text-decoration: none;
-  font-size: 16px;
-  opacity: 0.85;
-  transition: opacity 0.15s ease, transform 0.15s ease;
+  vertical-align: middle;
+  opacity: 0.9;
+  transition: transform 0.15s ease;
 }
 
-.liquipedia-link:hover {
-  opacity: 1;
+.liquipedia-link:hover img {
   transform: scale(1.1);
 }
