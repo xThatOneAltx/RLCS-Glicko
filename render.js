@@ -122,6 +122,19 @@ function renderPlayers(players, teamMap) {
           ${teamInfo.logo ? `<img class="logo" src="${teamInfo.logo}">` : ""}
           ${flag ? `<img class="flag" src="${flag}" alt="${player.country || ""}">` : ""}
           <span class="rank-name">${player.name}</span>
+
+          ${player.liquipedia ? `
+            <a
+              class="liquipedia-link"
+              href="${player.liquipedia}"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="View Liquipedia page"
+            >
+              📘
+            </a>
+          ` : ""}
+
           <span class="rank-rating">${displayRating}</span>
         </div>
       </div>
