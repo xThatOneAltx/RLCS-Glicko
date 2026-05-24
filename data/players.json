@@ -55,6 +55,6 @@
   { "name": "rehzzy", "rating": 162.89, "team": "NOVO Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Rehzzy" },
   { "name": "Motta", "rating": 162.49, "team": "BANANA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Motta" },
   { "name": "Fever", "rating": 160.36, "team": "Wildcard", "country": "au", "liquipedia": "https://liquipedia.net/rocketleague/Fever" },
-  { "name": "Accro", "rating": 167.03, "team": "Man City Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Accro" },
+  { "name": "accro", "rating": 167.03, "team": "Man City Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Accro" },
   { "name": "ejby", "rating": 163.41, "team": "Man City Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/Ejby" }
 ]
