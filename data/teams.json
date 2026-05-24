@@ -1,5 +1,5 @@
 [
-  {"name": "Karmine Corp", "rating": 2020, "color": "blue", "logo": "logos/KC.png"},
+  {"name": "Karmine Corp", "rating": 2029, "color": "blue", "logo": "logos/KC.png"},
   {"name": "Team Vitality", "rating": 2011, "color": "blue", "logo": "logos/VIT.png"},
   {"name": "Gentle Mates", "rating": 1996, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "rating": 1889, "color": "blue", "logo": "logos/MC.png"},
@@ -21,7 +21,7 @@
   {"name": "Gen.G Mobil1 Racing", "rating": 1716, "color": "red", "logo": "logos/GENG.png"},
   {"name": "Dignitas", "rating": 1739, "color": "red", "logo": "logos/DIG.png"},
 
-  {"name": "Twisted Minds", "rating": 1994, "color": "green", "logo": "logos/TWIS.png"},
+  {"name": "Twisted Minds", "rating": 1985, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "rating": 1941, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "R8 Esports", "rating": 1877, "color": "green", "logo": "logos/R8.png"},
 
