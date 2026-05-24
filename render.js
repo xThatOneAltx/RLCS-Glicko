@@ -131,7 +131,7 @@ function renderPlayers(players, teamMap) {
               rel="noopener noreferrer"
               title="View Liquipedia page"
             >
-              📘
+              <img src="logos/liquipedia.png" alt="Liquipedia">
             </a>
           ` : ""}
 
