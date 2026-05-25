@@ -43,7 +43,7 @@ function flagUrl(countryCode) {
 }
 
 const TEAMS_LAST_UPDATED = "May 24, 2026";
-const PLAYERS_LAST_UPDATED = "May 24, 2026 - NOT FULLY UPDATED";
+const PLAYERS_LAST_UPDATED = "May 24, 2026";
 
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
