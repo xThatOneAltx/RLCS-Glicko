@@ -4,32 +4,32 @@
   {"name": "Gentle Mates", "rating": 1996, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "rating": 1889, "color": "blue", "logo": "logos/MC.png"},
   {"name": "Ninjas in Pyjamas", "rating": 1884, "color": "blue", "logo": "logos/NIP.png"},
-  {"name": "Geekay Esports", "rating": 1778, "color": "blue", "logo": "logos/GK.png"},
-  {"name": "Kaydop Corp", "rating": 1871, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Geekay Esports", "rating": 1784, "color": "blue", "logo": "logos/GK.png"},
+  {"name": "Kaydop Corp", "rating": 1867, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Griddy Goose", "rating": 1784, "color": "blue", "logo": "logos/GRG.png"},
-  {"name": "NOVO Esports", "rating": 1864, "color": "blue", "logo": "logos/NOVO.png"},
-  {"name": "Magnifico", "rating": 1768, "color": "blue", "logo": "logos/MAG.png"},
+  {"name": "NOVO Esports", "rating": 1855, "color": "blue", "logo": "logos/NOVO.png"},
+  {"name": "Magnifico", "rating": 1774, "color": "blue", "logo": "logos/MAG.png"},
 
   {"name": "FURIA", "rating": 1907, "color": "yellow", "logo": "logos/FUR.png"},
 
   {"name": "NRG", "rating": 1925, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "rating": 1928, "color": "red", "logo": "logos/SSG.png"},
   {"name": "Shopify Rebellion", "rating": 1958, "color": "red", "logo": "logos/SR.png"},
-  {"name": "Virtus.pro", "rating": 1860, "color": "red", "logo": "logos/VP.png"},
+  {"name": "Virtus.pro", "rating": 1865, "color": "red", "logo": "logos/VP.png"},
   {"name": "FUT Esports", "rating": 1882, "color": "red", "logo": "logos/FUT.png"},
-  {"name": "M80", "rating": 1682, "color": "red", "logo": "logos/DEFAULT.png"},
-  {"name": "Gen.G Mobil1 Racing", "rating": 1716, "color": "red", "logo": "logos/GENG.png"},
-  {"name": "Dignitas", "rating": 1739, "color": "red", "logo": "logos/DIG.png"},
+  {"name": "M80", "rating": 1687, "color": "red", "logo": "logos/DEFAULT.png"},
+  {"name": "Gen.G Mobil1 Racing", "rating": 1721, "color": "red", "logo": "logos/GENG.png"},
+  {"name": "Dignitas", "rating": 1744, "color": "red", "logo": "logos/DIG.png"},
 
   {"name": "Twisted Minds", "rating": 1985, "color": "green", "logo": "logos/TWIS.png"},
-  {"name": "Team Falcons", "rating": 1941, "color": "green", "logo": "logos/FLCN.png"},
+  {"name": "Team Falcons", "rating": 1937, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "R8 Esports", "rating": 1877, "color": "green", "logo": "logos/R8.png"},
 
   
   {"name": "MIBR", "rating": 1877, "color": "yellow", "logo": "logos/MIBR.png"},
-  {"name": "BANANA", "rating": 1691, "color": "yellow", "logo": "logos/DEFAULT.png"},
-  {"name": "BS+COMPETITION", "rating": 1701, "color": "yellow", "logo": "logos/BSC.png"},
+  {"name": "BANANA", "rating": 1685, "color": "yellow", "logo": "logos/DEFAULT.png"},
+  {"name": "BS+COMPETITION", "rating": 1784, "color": "yellow", "logo": "logos/BSC.png"},
 
   {"name": "Wildcard", "rating": 1789, "color": "magenta", "logo": "logos/WC.png"},
-  {"name": "PWR", "rating": 1775, "color": "magenta", "logo": "logos/PWR.png"}
+  {"name": "PWR", "rating": 1776, "color": "magenta", "logo": "logos/PWR.png"}
 ]
