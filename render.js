@@ -58,7 +58,7 @@ function renderTeams(teams) {
 
   const sorted = [...teams]
     .sort((a, b) => b.rating - a.rating)
-    .slice(0, 20);
+    .slice(0, 25);
 
   const maxRating = sorted[0].rating;
 
