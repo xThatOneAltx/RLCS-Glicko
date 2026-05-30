@@ -15,9 +15,6 @@ h1 {
   font-size: 32px;
 }
 
-/* ==========================
-   TAB NAVIGATION
-========================== */
 .tabs {
   display: flex;
   justify-content: center;
@@ -48,9 +45,6 @@ h1 {
   display: block;
 }
 
-/* ==========================
-   RATING TOGGLE
-========================== */
 .rating-toggle {
   display: none;
   justify-content: center;
@@ -72,9 +66,6 @@ h1 {
   background: #666;
 }
 
-/* ==========================
-   RANK LIST
-========================== */
 .list-container {
   width: 90%;
   max-width: 540px;
@@ -90,7 +81,7 @@ h1 {
   display: flex;
   align-items: center;
   margin: 14px 0;
-  width: 100%; /* ADD THIS */
+  width: 100%;
 }
 
 .rank-number {
@@ -137,18 +128,16 @@ h1 {
   height: 16px;
   object-fit: cover;
   border-radius: 3px;
-  margin-right: 10px;  /* space before player name */
+  margin-right: 10px;
   box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
 }
 
-/* Bright color bar backgrounds */
 .green   { background: #007a35; }
 .blue    { background: #003d99; }
 .red     { background: #8c0000; }
 .yellow  { background: #8c7b00; }
 .magenta { background: #8c008c; }
 
-/* "No data" text for empty players.json */
 .no-data {
   text-align: center;
   margin-top: 50px;
