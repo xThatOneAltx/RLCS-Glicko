@@ -6,11 +6,9 @@
   {"name": "Ninjas in Pyjamas", "rating": 1884, "color": "blue", "logo": "logos/NIP.png"},
   {"name": "Geekay Esports", "rating": 1784, "color": "blue", "logo": "logos/GK.png"},
   {"name": "Kaydop Corp", "rating": 1867, "color": "blue", "logo": "logos/DEFAULT.png"},
-  {"name": "Griddy Goose", "rating": 1784, "color": "blue", "logo": "logos/GRG.png"},
+  {"name": "Griddy Goose", "rating": 1790, "color": "blue", "logo": "logos/GRG.png"},
   {"name": "NOVO Esports", "rating": 1855, "color": "blue", "logo": "logos/NOVO.png"},
   {"name": "Magnifico", "rating": 1774, "color": "blue", "logo": "logos/MAG.png"},
-
-  {"name": "FURIA", "rating": 1907, "color": "yellow", "logo": "logos/FUR.png"},
 
   {"name": "NRG", "rating": 1925, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "rating": 1928, "color": "red", "logo": "logos/SSG.png"},
@@ -24,12 +22,14 @@
   {"name": "Twisted Minds", "rating": 1985, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "rating": 1937, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "R8 Esports", "rating": 1877, "color": "green", "logo": "logos/R8.png"},
-
+  {"name": "Stallions", "rating": 1776, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "DOS", "rating": 1731, "color": "green", "logo": "logos/DEFAULT.png"},
   
+  {"name": "FURIA", "rating": 1907, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "rating": 1877, "color": "yellow", "logo": "logos/MIBR.png"},
   {"name": "BANANA", "rating": 1685, "color": "yellow", "logo": "logos/DEFAULT.png"},
   {"name": "BS+COMPETITION", "rating": 1784, "color": "yellow", "logo": "logos/BSC.png"},
 
   {"name": "Wildcard", "rating": 1789, "color": "magenta", "logo": "logos/WC.png"},
-  {"name": "PWR", "rating": 1776, "color": "magenta", "logo": "logos/PWR.png"}
+  {"name": "PWR", "rating": 1746, "color": "magenta", "logo": "logos/PWR.png"}
 ]
