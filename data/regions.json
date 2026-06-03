@@ -1,0 +1,9 @@
+[
+  {"name": "Europe", "rating": 1814, "logo": "logos/EU.png"},
+  {"name": "North America", "rating": 1708, "logo": "logos/NA.png"},
+  {"name": "Middle East & North Africa", "rating": 1609, "logo": "logos/MENA.png"},
+  {"name": "South America", "rating": 1536, "logo": "logos/SAM.png"},
+  {"name": "Oceania", "rating": 1346, "logo": "logos/OCE.png"},
+  {"name": "Asia-Pacific", "rating": 1127, "logo": "logos/APAC.png"},
+  {"name": "Sub-Saharan Africa", "rating": 960, "logo": "logos/SSA.png"}
+]
