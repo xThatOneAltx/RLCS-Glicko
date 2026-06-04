@@ -137,6 +137,8 @@ h1 {
 .red     { background: #8c0000; }
 .yellow  { background: #8c7b00; }
 .magenta { background: #8c008c; }
+.cyan    { background: #00a8cc; }
+.black   { background: #333333; }
 
 .no-data {
   text-align: center;
