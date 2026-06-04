@@ -144,9 +144,48 @@ function renderPlayers(players, teamMap) {
   });
 }
 
+function renderRegions(regions) {
+  const container = document.getElementById("regions-list");
+  container.innerHTML = "";
+
+  if (!regions || regions.length === 0) {
+    container.innerHTML = `<p class="no-data">No region data available yet.</p>`;
+    return;
+  }
+
+  const sorted = [...regions]
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 10);
+
+  const europe = regions.find(r => r.name === "Europe");
+  const maxRating = europe ? europe.rating : sorted[0].rating;
+
+  sorted.forEach((region, i) => {
+    const widthPercent = (region.rating / maxRating) * 100;
+
+    const div = document.createElement("div");
+    div.className = "rank-entry";
+
+    div.innerHTML = `
+      <div class="rank-number">${i + 1}</div>
+
+      <div class="rank-bar-wrapper">
+        <div class="rank-bar blue" style="width: ${widthPercent}%;">
+          <img class="logo" src="${region.logo}">
+          <span class="rank-name">${region.name}</span>
+          <span class="rank-rating">${Math.round(region.rating)}</span>
+        </div>
+      </div>
+    `;
+
+    container.appendChild(div);
+  });
+}
+
 async function init() {
   const teams = await loadJSON("data/teams.json");
   const players = await loadJSON("data/players.json");
+  const regions = await loadJSON("data/regions.json");
 
   const teamMap = buildTeamMap(teams);
 
@@ -155,6 +194,7 @@ async function init() {
 
   renderTeams(teams);
   renderPlayers(globalPlayers, globalTeamMap);
+  renderRegions(regions);
   setLastUpdated();
 }
 
