@@ -1,9 +1,51 @@
 [
-  {"name": "Europe", "rating": 1814, "logo": "logos/EU.png", "color": "blue"},
-  {"name": "North America", "rating": 1708, "logo": "logos/NA.png", "color": "red"},
-  {"name": "Middle East & North Africa", "rating": 1609, "logo": "logos/MENA.png", "color": "green"},
-  {"name": "South America", "rating": 1536, "logo": "logos/SAM.png", "color": "yellow"},
-  {"name": "Oceania", "rating": 1346, "logo": "logos/OCE.png", "color": "magenta"},
-  {"name": "Asia-Pacific", "rating": 1127, "logo": "logos/APAC.png", "color": "cyan"},
-  {"name": "Sub-Saharan Africa", "rating": 960, "logo": "logos/SSA.png", "color": "black"}
+  {
+    "name": "Europe",
+    "shortName": "EU",
+    "rating": 1814,
+    "logo": "logos/EU.png",
+    "color": "blue"
+  },
+  {
+    "name": "North America",
+    "shortName": "NA",
+    "rating": 1708,
+    "logo": "logos/NA.png",
+    "color": "red"
+  },
+  {
+    "name": "Middle East & North Africa",
+    "shortName": "MENA",
+    "rating": 1609,
+    "logo": "logos/MENA.png",
+    "color": "green"
+  },
+  {
+    "name": "South America",
+    "shortName": "SAM",
+    "rating": 1536,
+    "logo": "logos/SAM.png",
+    "color": "yellow"
+  },
+  {
+    "name": "Oceania",
+    "shortName": "OCE",
+    "rating": 1346,
+    "logo": "logos/OCE.png",
+    "color": "magenta"
+  },
+  {
+    "name": "Asia-Pacific",
+    "shortName": "APAC",
+    "rating": 1127,
+    "logo": "logos/APAC.png",
+    "color": "cyan"
+  },
+  {
+    "name": "Sub-Saharan Africa",
+    "shortName": "SSA",
+    "rating": 960,
+    "logo": "logos/SSA.png",
+    "color": "black"
+  }
 ]
