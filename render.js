@@ -172,7 +172,11 @@ function renderRegions(regions) {
       <div class="rank-bar-wrapper">
         <div class="rank-bar ${region.color}" style="width: ${widthPercent}%;">
           <img class="logo" src="${region.logo}">
-          <span class="rank-name">${region.name}</span>
+          <span class="rank-name">
+            ${window.innerWidth < 600
+              ? (region.shortName || region.name)
+              : region.name}
+          </span>
           <span class="rank-rating">${Math.round(region.rating)}</span>
         </div>
       </div>
