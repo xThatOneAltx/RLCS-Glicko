@@ -116,6 +116,7 @@ h1 {
 .rank-name {
   font-size: 20px;
   font-weight: bold;
+  padding-right: 50px;
 }
 
 .rank-rating {
