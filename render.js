@@ -268,7 +268,7 @@ function renderENC() {
         <div
           class="rank-bar ${nation.color || "blue"} ${encDisplayMode === "roster" ? "roster-mode" : ""}"
           style="width:${widthPercent}%;">
-          <img class="logo" src="${flag}">
+          <img class="enc-flag" src="${flag}" alt="${nation.country}">
           <span class="rank-name">${displayText}</span>
           <span class="rank-rating">${nation.rating}</span>
         </div>
