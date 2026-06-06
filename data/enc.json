@@ -1,0 +1,92 @@
+[
+  {
+    "country": "France",
+    "countryCode": "fr",
+    "rating": 2049,
+    "players": ["Vatira", "zen", "juicy"]
+  },
+  {
+    "country": "Saudi Arabia",
+    "countryCode": "sa",
+    "rating": 2038,
+    "players": ["Rw9", "trk511", "Kiileerrz"]
+  },
+  {
+    "country": "United States",
+    "countryCode": "us",
+    "rating": 2001,
+    "players": ["Atomic", "Daniel", "Firstkiller"]
+  },
+  {
+    "country": "Netherlands",
+    "countryCode": "nl",
+    "rating": 1961,
+    "players": ["Joreuz", "oaly.", "nass"]
+  },
+  {
+    "country": "Belgium",
+    "countryCode": "be",
+    "rating": 1895,
+    "players": ["Atow.", "rysfox.", "Alpha54"]
+  },
+  {
+    "country": "Brazil",
+    "countryCode": "br",
+    "rating": 1890,
+    "players": ["swiftt.", "yANXNZ", "kv1"]
+  },
+  {
+    "country": "United Kingdom",
+    "countryCode": "gb",
+    "rating": 1884,
+    "players": ["Archie", "Joyo", "ApparentlyJack"]
+  },
+  {
+    "country": "Spain",
+    "countryCode": "es",
+    "rating": 1880,
+    "players": ["AtomiK", "crr", "stizzy"]
+  },
+  {
+    "country": "Denmark",
+    "countryCode": "dk",
+    "rating": 1847,
+    "players": ["TempoH", "Nico", "ejby"]
+  },
+  {
+    "country": "Canada",
+    "countryCode": "ca",
+    "rating": 1825,
+    "players": ["reveal", "sosa", "Tawk"]
+  },
+  {
+    "country": "Australia",
+    "countryCode": "au",
+    "rating": 1806,
+    "players": ["gus", "Fever", "bananahead"]
+  },
+  {
+    "country": "Germany",
+    "countryCode": "de",
+    "rating": 1795,
+    "players": ["Catalysm", "Tox", "Rezears"]
+  },
+  {
+    "country": "Mexico",
+    "countryCode": "mx",
+    "rating": 1743,
+    "players": ["kofyr", "CHEESE.", "Pollo"]
+  },
+  {
+    "country": "Morocco",
+    "countryCode": "ma",
+    "rating": 1649,
+    "players": ["dralii", "AnoriQ", "skyrix"]
+  },
+  {
+    "country": "Chile",
+    "countryCode": "cl",
+    "rating": 1638,
+    "players": ["Reysbull", "pan", "nachosky"]
+  }
+]
