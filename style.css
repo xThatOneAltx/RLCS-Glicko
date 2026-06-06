@@ -116,12 +116,12 @@ h1 {
 .rank-name {
   font-size: 20px;
   font-weight: bold;
-  padding-right: 50px;
 }
 
 .rank-rating {
   position: absolute;
   right: 12px;
+  padding-left: 12px;
   font-size: 20px;
   font-weight: bold;
 }
