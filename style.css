@@ -121,7 +121,6 @@ h1 {
 .rank-rating {
   position: absolute;
   right: 12px;
-  padding-left: 12px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -242,7 +241,7 @@ h1 {
   padding: 10px 20px;
   margin: 0 5px;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
   border-radius: 6px;
 }
