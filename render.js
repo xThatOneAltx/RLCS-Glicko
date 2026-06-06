@@ -12,13 +12,21 @@ document.querySelectorAll(".tab-button").forEach(btn => {
     btn.classList.add("active");
     document.getElementById(btn.getAttribute("data-tab")).classList.add("active");
 
-    const toggle = document.getElementById("rating-toggle");
-    if (toggle) {
-      if (btn.getAttribute("data-tab") === "players") {
-        toggle.style.display = "flex";
-      } else {
-        toggle.style.display = "none";
-      }
+    const ratingToggle = document.getElementById("rating-toggle");
+    const encToggle = document.getElementById("enc-toggle");
+
+    if (ratingToggle) {
+      ratingToggle.style.display =
+        btn.getAttribute("data-tab") === "players"
+          ? "flex"
+          : "none";
+    }
+
+    if (encToggle) {
+      encToggle.style.display =
+        btn.getAttribute("data-tab") === "enc"
+          ? "flex"
+          : "none";
     }
   });
 });
@@ -288,6 +296,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const toggle = document.getElementById("rating-toggle");
   if (toggle) toggle.style.display = "none";
+
+  const encToggle = document.getElementById("enc-toggle");
+  if (encToggle) encToggle.style.display = "none";
 });
 
 init();
