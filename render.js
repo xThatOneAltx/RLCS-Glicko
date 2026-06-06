@@ -38,12 +38,14 @@ async function loadJSON(path) {
 
 function buildTeamMap(teams) {
   const map = {};
+
   teams.forEach(t => {
     map[t.name] = {
       color: t.color || "blue",
       logo: t.logo || ""
     };
   });
+
   return map;
 }
 
@@ -58,12 +60,16 @@ const PLAYERS_LAST_UPDATED = "May 24, 2026";
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
   const p = document.getElementById("players-updated");
+
   if (t) t.textContent = `LAST UPDATED: ${TEAMS_LAST_UPDATED}`;
   if (p) p.textContent = `LAST UPDATED: ${PLAYERS_LAST_UPDATED}`;
 }
 
 function renderTeams(teams) {
   const container = document.getElementById("teams-list");
+
+  if (!container) return;
+
   container.innerHTML = "";
 
   const sorted = [...teams]
@@ -76,12 +82,13 @@ function renderTeams(teams) {
     const widthPercent = (team.rating / maxRating) * 100;
 
     const div = document.createElement("div");
+
     div.className = "rank-entry";
 
     div.innerHTML = `
       <div class="rank-number">${i + 1}</div>
       <div class="rank-bar-wrapper">
-        <div class="rank-bar ${team.color}" style="width: ${widthPercent}%;">
+        <div class="rank-bar ${team.color}" style="width:${widthPercent}%;">
           <img class="logo" src="${team.logo || ""}">
           <span class="rank-name">${team.name}</span>
           <span class="rank-rating">${team.rating}</span>
@@ -95,10 +102,14 @@ function renderTeams(teams) {
 
 function renderPlayers(players, teamMap) {
   const container = document.getElementById("players-list");
+
+  if (!container) return;
+
   container.innerHTML = "";
 
   if (!players || players.length === 0) {
-    container.innerHTML = `<p class="no-data">No player data available yet.</p>`;
+    container.innerHTML =
+      `<p class="no-data">No player data available yet.</p>`;
     return;
   }
 
@@ -111,26 +122,34 @@ function renderPlayers(players, teamMap) {
   sorted.forEach((player, i) => {
     const rawRating = Number(player.rating) || 0;
 
-    let displayRating;
-    if (ratingMode === "fifa") {
-      displayRating = Math.round(rawRating / 4 + 44.44);
-    } else {
-      displayRating = Math.round(rawRating);
-    }
+    const displayRating =
+      ratingMode === "fifa"
+        ? Math.round(rawRating / 4 + 44.44)
+        : Math.round(rawRating);
 
-    const widthPercent = Math.max(0, Math.min(100, (rawRating / maxRating) * 100));
-    const teamInfo = teamMap[player.team] || { color: "blue", logo: "" };
+    const widthPercent =
+      Math.max(0, Math.min(100, (rawRating / maxRating) * 100));
+
+    const teamInfo =
+      teamMap[player.team] || {
+        color: "blue",
+        logo: ""
+      };
+
     const flag = flagUrl(player.country);
 
     const div = document.createElement("div");
+
     div.className = "rank-entry";
 
     div.innerHTML = `
       <div class="rank-number">${i + 1}</div>
+
       <div class="rank-bar-wrapper">
-        <div class="rank-bar ${teamInfo.color}" style="width: ${widthPercent}%;">
+        <div class="rank-bar ${teamInfo.color}" style="width:${widthPercent}%;">
           ${teamInfo.logo ? `<img class="logo" src="${teamInfo.logo}">` : ""}
           ${flag ? `<img class="flag" src="${flag}" alt="${player.country || ""}">` : ""}
+
           <span class="rank-name">${player.name}</span>
 
           ${player.liquipedia ? `
@@ -156,10 +175,14 @@ function renderPlayers(players, teamMap) {
 
 function renderRegions(regions) {
   const container = document.getElementById("regions-list");
+
+  if (!container) return;
+
   container.innerHTML = "";
 
   if (!regions || regions.length === 0) {
-    container.innerHTML = `<p class="no-data">No region data available yet.</p>`;
+    container.innerHTML =
+      `<p class="no-data">No region data available yet.</p>`;
     return;
   }
 
@@ -168,25 +191,33 @@ function renderRegions(regions) {
     .slice(0, 10);
 
   const europe = regions.find(r => r.name === "Europe");
-  const maxRating = europe ? europe.rating : sorted[0].rating;
+
+  const maxRating =
+    europe
+      ? europe.rating
+      : sorted[0].rating;
 
   sorted.forEach((region, i) => {
-    const widthPercent = (region.rating / maxRating) * 100;
+    const widthPercent =
+      (region.rating / maxRating) * 100;
 
     const div = document.createElement("div");
+
     div.className = "rank-entry";
 
     div.innerHTML = `
       <div class="rank-number">${i + 1}</div>
 
       <div class="rank-bar-wrapper">
-        <div class="rank-bar ${region.color}" style="width: ${widthPercent}%;">
+        <div class="rank-bar ${region.color}" style="width:${widthPercent}%;">
           <img class="logo" src="${region.logo}">
+
           <span class="rank-name">
             ${window.innerWidth < 600
               ? (region.shortName || region.name)
               : region.name}
           </span>
+
           <span class="rank-rating">${Math.round(region.rating)}</span>
         </div>
       </div>
@@ -202,6 +233,12 @@ function renderENC() {
   if (!container) return;
 
   container.innerHTML = "";
+
+  if (!encData || encData.length === 0) {
+    container.innerHTML =
+      `<p class="no-data">No ENC data available yet.</p>`;
+    return;
+  }
 
   const sorted = [...encData]
     .sort((a, b) => b.rating - a.rating)
@@ -263,41 +300,43 @@ async function init() {
 }
 
 document.addEventListener("click", e => {
-
-  if (!e.target.classList.contains("enc-mode-button"))
-    return;
+  if (!e.target.classList.contains("enc-mode-button")) return;
 
   document
     .querySelectorAll(".enc-mode-button")
-    .forEach(btn =>
-      btn.classList.remove("active")
-    );
+    .forEach(btn => btn.classList.remove("active"));
 
   e.target.classList.add("active");
 
-  encDisplayMode =
-    e.target.dataset.mode;
+  encDisplayMode = e.target.dataset.mode;
 
   renderENC();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const buttons = document.querySelectorAll(".rating-button");
+  const buttons =
+    document.querySelectorAll(".rating-button");
 
   buttons.forEach(btn => {
     btn.addEventListener("click", () => {
       buttons.forEach(b => b.classList.remove("active"));
+
       btn.classList.add("active");
 
       ratingMode = btn.getAttribute("data-mode");
+
       renderPlayers(globalPlayers, globalTeamMap);
     });
   });
 
-  const toggle = document.getElementById("rating-toggle");
+  const toggle =
+    document.getElementById("rating-toggle");
+
   if (toggle) toggle.style.display = "none";
 
-  const encToggle = document.getElementById("enc-toggle");
+  const encToggle =
+    document.getElementById("enc-toggle");
+
   if (encToggle) encToggle.style.display = "none";
 });
 
