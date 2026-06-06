@@ -1,6 +1,8 @@
 let ratingMode = "fm";
 let globalPlayers = [];
 let globalTeamMap = {};
+let encDisplayMode = "nation";
+let encData = [];
 
 document.querySelectorAll(".tab-button").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -186,21 +188,90 @@ function renderRegions(regions) {
   });
 }
 
+function renderENC() {
+  const container = document.getElementById("enc-list");
+
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const sorted = [...encData]
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 15);
+
+  const maxRating = sorted[0].rating;
+
+  sorted.forEach((nation, i) => {
+    const widthPercent =
+      (nation.rating / maxRating) * 100;
+
+    const displayText =
+      encDisplayMode === "nation"
+        ? nation.country
+        : nation.players.join(" / ");
+
+    const flag = flagUrl(nation.countryCode);
+
+    const div = document.createElement("div");
+
+    div.className = "rank-entry";
+
+    div.innerHTML = `
+      <div class="rank-number">${i + 1}</div>
+
+      <div class="rank-bar-wrapper">
+        <div
+          class="rank-bar blue ${encDisplayMode === "roster" ? "roster-mode" : ""}"
+          style="width:${widthPercent}%;">
+          <img class="logo" src="${flag}">
+          <span class="rank-name">${displayText}</span>
+          <span class="rank-rating">${nation.rating}</span>
+        </div>
+      </div>
+    `;
+
+    container.appendChild(div);
+  });
+}
+
 async function init() {
   const teams = await loadJSON("data/teams.json");
   const players = await loadJSON("data/players.json");
   const regions = await loadJSON("data/regions.json");
+  const enc = await loadJSON("data/enc.json");
 
   const teamMap = buildTeamMap(teams);
 
   globalPlayers = players;
   globalTeamMap = teamMap;
+  encData = enc;
 
   renderTeams(teams);
   renderPlayers(globalPlayers, globalTeamMap);
   renderRegions(regions);
+  renderENC();
+
   setLastUpdated();
 }
+
+document.addEventListener("click", e => {
+
+  if (!e.target.classList.contains("enc-mode-button"))
+    return;
+
+  document
+    .querySelectorAll(".enc-mode-button")
+    .forEach(btn =>
+      btn.classList.remove("active")
+    );
+
+  e.target.classList.add("active");
+
+  encDisplayMode =
+    e.target.dataset.mode;
+
+  renderENC();
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".rating-button");
