@@ -265,3 +265,32 @@ h1 {
 .rank-bar.roster-mode .rank-name {
   font-size: 15px;
 }
+
+@media (max-width: 600px) {
+  .rank-name {
+    font-size: 18px;
+  }
+
+  .rank-rating {
+    font-size: 18px;
+  }
+
+  .rank-number {
+    font-size: 18px;
+  }
+
+  .flag {
+    width: 20px;
+    height: 14px;
+  }
+
+  .liquipedia-link img {
+    width: 11px;
+    height: 11px;
+  }
+
+  .rank-bar.roster-mode .rank-name {
+    font-size: 14px;
+  }
+
+}
