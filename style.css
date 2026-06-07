@@ -268,8 +268,7 @@ h1 {
 
 @media (max-width: 600px) {
   .list-container {
-    padding-left: 12px;
-    padding-right: 12px;
-    box-sizing: border-box;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
