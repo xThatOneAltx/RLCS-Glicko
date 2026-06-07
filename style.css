@@ -71,7 +71,9 @@ h1 {
 .list-container {
   width: 90%;
   max-width: 540px;
-  margin: auto;
+  margin: 0 auto;
+  position: relative;
+  left: -20px;
 }
 
 .rank-bar-wrapper {
