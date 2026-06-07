@@ -266,7 +266,7 @@ h1 {
   font-size: 15px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .rank-name {
     font-size: 18px;
   }
@@ -293,4 +293,12 @@ h1 {
     font-size: 14px;
   }
 
+}
+
+@media (max-width: 600px) {
+  .list-container {
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+  }
 }
