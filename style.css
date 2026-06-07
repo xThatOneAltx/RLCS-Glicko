@@ -265,3 +265,11 @@ h1 {
 .rank-bar.roster-mode .rank-name {
   font-size: 15px;
 }
+
+@media (max-width: 600px) {
+  .list-container {
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+  }
+}
