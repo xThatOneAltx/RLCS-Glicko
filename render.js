@@ -3,6 +3,9 @@ let globalPlayers = [];
 let globalTeamMap = {};
 let encDisplayMode = "nation";
 let encData = [];
+let teamMode = "3v3";
+let globalTeams = [];
+let global2v2 = [];
 
 document.querySelectorAll(".tab-button").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -14,6 +17,7 @@ document.querySelectorAll(".tab-button").forEach(btn => {
 
     const ratingToggle = document.getElementById("rating-toggle");
     const encToggle = document.getElementById("enc-toggle");
+    const teamToggle = document.getElementById("team-mode-toggle");
 
     if (ratingToggle) {
       ratingToggle.style.display =
@@ -25,6 +29,13 @@ document.querySelectorAll(".tab-button").forEach(btn => {
     if (encToggle) {
       encToggle.style.display =
         btn.getAttribute("data-tab") === "enc"
+          ? "flex"
+          : "none";
+    }
+
+    if (teamToggle) {
+      teamToggle.style.display =
+        btn.getAttribute("data-tab") === "teams"
           ? "flex"
           : "none";
     }
@@ -75,6 +86,41 @@ function renderTeams(teams) {
   const sorted = [...teams]
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 25);
+
+  const maxRating = sorted[0].rating;
+
+  sorted.forEach((team, i) => {
+    const widthPercent = (team.rating / maxRating) * 100;
+
+    const div = document.createElement("div");
+
+    div.className = "rank-entry";
+
+    div.innerHTML = `
+      <div class="rank-number">${i + 1}</div>
+      <div class="rank-bar-wrapper">
+        <div class="rank-bar ${team.color}" style="width:${widthPercent}%;">
+          <img class="logo" src="${team.logo || ""}">
+          <span class="rank-name">${team.name}</span>
+          <span class="rank-rating">${team.rating}</span>
+        </div>
+      </div>
+    `;
+
+    container.appendChild(div);
+  });
+}
+
+function render2v2(teams) {
+  const container = document.getElementById("teams-list");
+
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const sorted = [...teams]
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 20);
 
   const maxRating = sorted[0].rating;
 
@@ -281,17 +327,21 @@ function renderENC() {
 
 async function init() {
   const teams = await loadJSON("data/teams.json");
+  const twos = await loadJSON("data/2v2.json");
   const players = await loadJSON("data/players.json");
   const regions = await loadJSON("data/regions.json");
   const enc = await loadJSON("data/enc.json");
 
   const teamMap = buildTeamMap(teams);
 
+  globalTeams = teams;
+  global2v2 = twos;
+
   globalPlayers = players;
   globalTeamMap = teamMap;
   encData = enc;
 
-  renderTeams(teams);
+  renderTeams(globalTeams);
   renderPlayers(globalPlayers, globalTeamMap);
   renderRegions(regions);
   renderENC();
@@ -329,6 +379,28 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  const teamButtons =
+    document.querySelectorAll(".team-mode-button");
+
+  teamButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+
+      teamButtons.forEach(b =>
+        b.classList.remove("active")
+      );
+
+      btn.classList.add("active");
+
+      teamMode = btn.dataset.mode;
+
+      if (teamMode === "3v3") {
+        renderTeams(globalTeams);
+      } else {
+        render2v2(global2v2);
+      }
+    });
+  });
+
   const toggle =
     document.getElementById("rating-toggle");
 
@@ -338,6 +410,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("enc-toggle");
 
   if (encToggle) encToggle.style.display = "none";
+
+  const teamToggle =
+    document.getElementById("team-mode-toggle");
+
+  if (teamToggle) teamToggle.style.display = "flex";
 });
 
 init();
