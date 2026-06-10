@@ -266,6 +266,20 @@ h1 {
   font-size: 15px;
 }
 
+.team-mode-button {
+  background: #222;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.team-mode-button.active {
+  background: #444;
+}
+
 @media (max-width: 768px) {
   .rank-name {
     font-size: 18px;
