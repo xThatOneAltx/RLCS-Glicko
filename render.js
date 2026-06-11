@@ -120,7 +120,7 @@ function render2v2(teams) {
 
   const sorted = [...teams]
     .sort((a, b) => b.rating - a.rating)
-    .slice(0, 20);
+    .slice(0, 15);
 
   const maxRating = sorted[0].rating;
 
