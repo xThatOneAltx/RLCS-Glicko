@@ -1,20 +1,20 @@
 [
-  {"name": "No Miss Just Fake", "rating": 2185, "color": "blue", "logo": "logos/DEFAULT.png"},
-  {"name": "Gentle Mates", "rating": 2017, "color": "blue", "logo": "logos/M8.png"},
-  {"name": "Karmine Corp", "rating": 1998, "color": "blue", "logo": "logos/KC.png"},
-  {"name": "Geekay Esports", "rating": 1856, "color": "blue", "logo": "logos/GK.png"},
-  {"name": "Manchester City", "rating": 1871, "color": "blue", "logo": "logos/MC.png"},
+  {"name": "No Miss Just Fake", "players": ["zen", "Atow."], "rating": 2185, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Gentle Mates", "players": ["nass", "Oski"], "rating": 2017, "color": "blue", "logo": "logos/M8.png"},
+  {"name": "Karmine Corp", "players": ["Vatira", "juicy"], "rating": 1998, "color": "blue", "logo": "logos/KC.png"},
+  {"name": "Geekay Esports", "players": ["TempoH", "mtzr"], "rating": 1856, "color": "blue", "logo": "logos/GK.png"},
+  {"name": "Manchester City", "players": ["Seikoo", "accro"], "rating": 1871, "color": "blue", "logo": "logos/MC.png"},
 
-  {"name": "Tequeños", "rating": 1928, "color": "red", "logo": "logos/DEFAULT.png"},
-  {"name": "NRG", "rating": 1844, "color": "red", "logo": "logos/NRG.png"},
-  {"name": "Spacestation Gaming", "rating": 1903, "color": "red", "logo": "logos/SSG.png"},
-  {"name": "LC", "rating": 1850, "color": "red", "logo": "logos/DEFAULT.png"},
-  {"name": "Awwww", "rating": 1893, "color": "red", "logo": "logos/DEFAULT.png"},
-  {"name": "Not Really Good", "rating": 1839, "color": "red", "logo": "logos/DEFAULT.png"},
+  {"name": "Tequeños", "players": ["Firstkiller", "Atomic"], "rating": 1928, "color": "red", "logo": "logos/DEFAULT.png"},
+  {"name": "NRG", "players": ["Daniel", "BeastMode"], "rating": 1844, "color": "red", "logo": "logos/NRG.png"},
+  {"name": "Spacestation Gaming", "players": ["zach", "reveal"], "rating": 1903, "color": "red", "logo": "logos/SSG.png"},
+  {"name": "LC", "players": ["Lj", "Chronic"], "rating": 1850, "color": "red", "logo": "logos/DEFAULT.png"},
+  {"name": "Awwww", "players": ["CHEESE.", "Tawk"], "rating": 1893, "color": "red", "logo": "logos/DEFAULT.png"},
+  {"name": "Not Really Good", "players": ["Evoh", "diaz"], "rating": 1839, "color": "red", "logo": "logos/DEFAULT.png"},
 
-  {"name": "World Champs", "rating": 1908, "color": "green", "logo": "logos/DEFAULT.png"},
-  {"name": "Team Falcons", "rating": 2003, "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "511", "rating": 1977, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "World Champs", "players": ["zen", "Atow."], "rating": 1908, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "Team Falcons", "players": ["zen", "Atow."], "rating": 2003, "color": "green", "logo": "logos/FLCN.png"},
+  {"name": "511", "players": ["zen", "Atow."], "rating": 1977, "color": "green", "logo": "logos/DEFAULT.png"},
 
-  {"name": "Backyardigans", "rating": 1893, "color": "yellow", "logo": "logos/FUR.png"},
+  {"name": "Backyardigans", "players": ["zen", "Atow."], "rating": 1893, "color": "yellow", "logo": "logos/FUR.png"}
 ]
