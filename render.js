@@ -16,8 +16,8 @@ document.querySelectorAll(".tab-button").forEach(btn => {
     document.getElementById(btn.getAttribute("data-tab")).classList.add("active");
 
     const ratingToggle = document.getElementById("rating-toggle");
-    const encToggle = document.getElementById("enc-toggle");
     const teamToggle = document.getElementById("team-mode-toggle");
+    const teamDisplayToggle = document.getElementById("team-display-toggle");
 
     if (ratingToggle) {
       ratingToggle.style.display =
@@ -26,15 +26,15 @@ document.querySelectorAll(".tab-button").forEach(btn => {
           : "none";
     }
 
-    if (encToggle) {
-      encToggle.style.display =
-        btn.getAttribute("data-tab") === "enc"
+    if (teamToggle) {
+      teamToggle.style.display =
+        btn.getAttribute("data-tab") === "teams"
           ? "flex"
           : "none";
     }
 
-    if (teamToggle) {
-      teamToggle.style.display =
+    if (teamDisplayToggle) {
+      teamDisplayToggle.style.display =
         btn.getAttribute("data-tab") === "teams"
           ? "flex"
           : "none";
@@ -425,15 +425,15 @@ displayButtons.forEach(btn => {
 
   if (toggle) toggle.style.display = "none";
 
-  const encToggle =
-    document.getElementById("enc-toggle");
-
-  if (encToggle) encToggle.style.display = "none";
-
   const teamToggle =
     document.getElementById("team-mode-toggle");
 
   if (teamToggle) teamToggle.style.display = "flex";
+
+  const teamDisplayToggle =
+    document.getElementById("team-display-toggle");
+
+  if (teamDisplayToggle) teamDisplayToggle.style.display = "flex";
 });
 
 init();
