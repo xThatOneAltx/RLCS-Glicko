@@ -99,7 +99,7 @@ function renderTeams(teams, showRoster = false) {
     div.innerHTML = `
       <div class="rank-number">${i + 1}</div>
       <div class="rank-bar-wrapper">
-        <div class="rank-bar ${team.color}" style="width:${widthPercent}%;">
+        <div class="rank-bar ${team.color} ${showRoster ? "roster-mode" : ""}" style="width:${widthPercent}%;">
           <img class="logo" src="${team.logo || ""}">
           <span class="rank-name">
             ${showRoster ? team.players.join(" / ") : team.name}
@@ -136,7 +136,7 @@ function render2v2(teams, showRoster = false) {
     div.innerHTML = `
       <div class="rank-number">${i + 1}</div>
       <div class="rank-bar-wrapper">
-        <div class="rank-bar ${team.color}" style="width:${widthPercent}%;">
+        <div class="rank-bar ${team.color} ${showRoster ? "roster-mode" : ""}" style="width:${widthPercent}%;">
           <img class="logo" src="${team.logo || ""}">
           <span class="rank-name">
             ${showRoster ? team.players.join(" / ") : team.name}
@@ -309,7 +309,7 @@ function renderENC(showRoster = false) {
       <div class="rank-number">${i + 1}</div>
 
       <div class="rank-bar-wrapper">
-        <div class="rank-bar ${nation.color}" style="width:${widthPercent}%;">
+        <div class="rank-bar ${nation.color} ${showRoster ? "roster-mode" : ""}" style="width:${widthPercent}%;">
           <img class="enc-flag" src="${flag}" alt="${nation.country}">
           <span class="rank-name">${displayText}</span>
           <span class="rank-rating">${nation.rating}</span>
