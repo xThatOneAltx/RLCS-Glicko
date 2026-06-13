@@ -1,7 +1,7 @@
 let ratingMode = "fm";
 let globalPlayers = [];
 let globalTeamMap = {};
-let encDisplayMode = "nation";
+let teamDisplayMode = "name";
 let encData = [];
 let teamMode = "3v3";
 let globalTeams = [];
@@ -76,7 +76,7 @@ function setLastUpdated() {
   if (p) p.textContent = `LAST UPDATED: ${PLAYERS_LAST_UPDATED}`;
 }
 
-function renderTeams(teams) {
+function renderTeams(teams, showRoster = false) {
   const container = document.getElementById("teams-list");
 
   if (!container) return;
@@ -101,7 +101,9 @@ function renderTeams(teams) {
       <div class="rank-bar-wrapper">
         <div class="rank-bar ${team.color}" style="width:${widthPercent}%;">
           <img class="logo" src="${team.logo || ""}">
-          <span class="rank-name">${team.name}</span>
+          <span class="rank-name">
+            ${showRoster ? team.players.join(" / ") : team.name}
+          </span>
           <span class="rank-rating">${team.rating}</span>
         </div>
       </div>
@@ -111,7 +113,7 @@ function renderTeams(teams) {
   });
 }
 
-function render2v2(teams) {
+function render2v2(teams, showRoster = false) {
   const container = document.getElementById("teams-list");
 
   if (!container) return;
@@ -136,7 +138,9 @@ function render2v2(teams) {
       <div class="rank-bar-wrapper">
         <div class="rank-bar ${team.color}" style="width:${widthPercent}%;">
           <img class="logo" src="${team.logo || ""}">
-          <span class="rank-name">${team.name}</span>
+          <span class="rank-name">
+            ${showRoster ? team.players.join(" / ") : team.name}
+          </span>
           <span class="rank-rating">${team.rating}</span>
         </div>
       </div>
@@ -273,18 +277,12 @@ function renderRegions(regions) {
   });
 }
 
-function renderENC() {
-  const container = document.getElementById("enc-list");
+function renderENC(showRoster = false) {
+  const container = document.getElementById("teams-list");
 
   if (!container) return;
 
   container.innerHTML = "";
-
-  if (!encData || encData.length === 0) {
-    container.innerHTML =
-      `<p class="no-data">No ENC data available yet.</p>`;
-    return;
-  }
 
   const sorted = [...encData]
     .sort((a, b) => b.rating - a.rating)
@@ -296,12 +294,12 @@ function renderENC() {
     const widthPercent =
       (nation.rating / maxRating) * 100;
 
-    const displayText =
-      encDisplayMode === "nation"
-        ? nation.country
-        : nation.players.join(" / ");
-
     const flag = flagUrl(nation.countryCode);
+
+    const displayText =
+      showRoster
+        ? nation.players.join(" / ")
+        : nation.country;
 
     const div = document.createElement("div");
 
@@ -311,9 +309,7 @@ function renderENC() {
       <div class="rank-number">${i + 1}</div>
 
       <div class="rank-bar-wrapper">
-        <div
-          class="rank-bar ${nation.color || "blue"} ${encDisplayMode === "roster" ? "roster-mode" : ""}"
-          style="width:${widthPercent}%;">
+        <div class="rank-bar ${nation.color}" style="width:${widthPercent}%;">
           <img class="enc-flag" src="${flag}" alt="${nation.country}">
           <span class="rank-name">${displayText}</span>
           <span class="rank-rating">${nation.rating}</span>
@@ -323,6 +319,29 @@ function renderENC() {
 
     container.appendChild(div);
   });
+}
+
+function renderCurrentTeamMode() {
+
+  if (teamMode === "3v3") {
+    renderTeams(
+      globalTeams,
+      teamDisplayMode === "roster"
+    );
+  }
+
+  else if (teamMode === "2v2") {
+    render2v2(
+      global2v2,
+      teamDisplayMode === "roster"
+    );
+  }
+
+  else {
+    renderENC(
+      teamDisplayMode === "roster"
+    );
+  }
 }
 
 async function init() {
@@ -341,27 +360,12 @@ async function init() {
   globalTeamMap = teamMap;
   encData = enc;
 
-  renderTeams(globalTeams);
+  renderCurrentTeamMode();
   renderPlayers(globalPlayers, globalTeamMap);
   renderRegions(regions);
-  renderENC();
 
   setLastUpdated();
 }
-
-document.addEventListener("click", e => {
-  if (!e.target.classList.contains("enc-mode-button")) return;
-
-  document
-    .querySelectorAll(".enc-mode-button")
-    .forEach(btn => btn.classList.remove("active"));
-
-  e.target.classList.add("active");
-
-  encDisplayMode = e.target.dataset.mode;
-
-  renderENC();
-});
 
 document.addEventListener("DOMContentLoaded", () => {
   const buttons =
@@ -380,26 +384,41 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const teamButtons =
-    document.querySelectorAll(".team-mode-button");
+  document.querySelectorAll(".team-mode-button");
 
-  teamButtons.forEach(btn => {
-    btn.addEventListener("click", () => {
+teamButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
 
-      teamButtons.forEach(b =>
-        b.classList.remove("active")
-      );
+    teamButtons.forEach(b =>
+      b.classList.remove("active")
+    );
 
-      btn.classList.add("active");
+    btn.classList.add("active");
 
-      teamMode = btn.dataset.mode;
+    teamMode = btn.dataset.mode;
 
-      if (teamMode === "3v3") {
-        renderTeams(globalTeams);
-      } else {
-        render2v2(global2v2);
-      }
-    });
+    renderCurrentTeamMode();
   });
+});
+
+  const displayButtons =
+  document.querySelectorAll(".team-display-button");
+
+displayButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+
+    displayButtons.forEach(b =>
+      b.classList.remove("active")
+    );
+
+    btn.classList.add("active");
+
+    teamDisplayMode =
+      btn.dataset.mode;
+
+    renderCurrentTeamMode();
+  });
+});
 
   const toggle =
     document.getElementById("rating-toggle");
