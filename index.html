@@ -17,13 +17,13 @@
     <button class="tab-button active" data-tab="teams">Teams</button>
     <button class="tab-button" data-tab="players">Players</button>
     <button class="tab-button" data-tab="regions">Regions</button>
-    <button class="tab-button" data-tab="enc">ENC</button>
     <button class="tab-button" data-tab="info">Info</button>
     <button class="tab-button" data-tab="support">Support</button>
   </nav>
 
   <main>
     <section id="teams" class="tab active">
+
       <div id="team-mode-toggle" class="rating-toggle">
         <button class="team-mode-button active" data-mode="3v3">
           3v3
@@ -32,54 +32,63 @@
         <button class="team-mode-button" data-mode="2v2">
           2v2
         </button>
+
+        <button class="team-mode-button" data-mode="enc">
+          ENC
+        </button>
       </div>
+
+      <div id="roster-toggle" class="rating-toggle">
+        <button class="roster-mode-button active" data-mode="name">
+          Team Names
+        </button>
+
+        <button class="roster-mode-button" data-mode="roster">
+          Rosters
+        </button>
+      </div>
+
       <div id="teams-list" class="list-container"></div>
+
       <div class="last-updated" id="teams-updated"></div>
+
     </section>
 
     <section id="players" class="tab">
+
       <div class="rating-toggle" id="rating-toggle">
-        <button class="rating-button active" data-mode="fm">FM</button>
-        <button class="rating-button" data-mode="fifa">FIFA</button>
+        <button class="rating-button active" data-mode="fm">
+          FM
+        </button>
+
+        <button class="rating-button" data-mode="fifa">
+          FIFA
+        </button>
       </div>
-      
+
       <div id="players-list" class="list-container">
         <p class="no-data">No player data available yet.</p>
       </div>
+
       <div class="last-updated" id="players-updated"></div>
+
     </section>
 
     <section id="regions" class="tab">
       <div id="regions-list" class="list-container"></div>
     </section>
 
-    <section id="enc" class="tab">
-
-      <div id="enc-toggle" class="rating-toggle">
-        <button class="enc-mode-button active" data-mode="nation">
-          Nations
-        </button>
-
-        <button class="enc-mode-button" data-mode="roster">
-          Rosters
-        </button>
-      </div>
-
-      <div id="enc-list" class="list-container"></div>
-
-      <div class="last-updated">
-        Top 15 projected Esports Nations Cup rosters
-      </div>
-
-    </section>
-
     <section id="info" class="tab">
+
       <div class="info-container">
+
         <h2>Prediction Accuracy</h2>
+
         <p><strong>Overall Prediction Rate:</strong> ~81%</p>
         <p><strong>LAN Prediction Rate:</strong> ~78%</p>
 
         <h2>Overview</h2>
+
         <p>
           <strong>RLCS Glicko</strong> is designed with one goal in mind:
           predicting RLCS matches as accurately as possible.
@@ -93,6 +102,7 @@
         </p>
 
         <h2>Team Ratings</h2>
+
         <p>
           Initial team ratings are generated directly from player ratings.
           From there, ratings adjust after every match based on wins and losses
@@ -109,6 +119,7 @@
         </p>
 
         <h2>Player Ratings</h2>
+
         <p>
           Player ratings are calculated at the conclusion of every event using
           a combination of individual performance metrics and team success.
@@ -127,15 +138,19 @@
           designed to best estimate player quality and improve prediction
           accuracy for newly formed teams.
         </p>
+
       </div>
+
     </section>
 
     <section id="support" class="tab">
+
       <div class="support-container">
+
         <h2>Support RLCS Glicko</h2>
 
         <p>
-          RLCS Glicko is independently updated and developed. 
+          RLCS Glicko is independently updated and developed.
           All donations to help keep the project running are appreciated!
         </p>
 
@@ -147,8 +162,11 @@
         >
           ☕ Support on Ko-fi
         </a>
+
       </div>
+
     </section>
+
   </main>
 
   <script src="render.js"></script>
