@@ -50,10 +50,12 @@ h1 {
 .rating-toggle {
   display: none;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.rating-button {
+.rating-button,
+.team-mode-button,
+.team-display-button {
   background: #222;
   border: none;
   padding: 8px 18px;
@@ -66,6 +68,15 @@ h1 {
 
 .rating-button.active {
   background: #666;
+}
+
+.team-mode-button.active,
+.team-display-button.active {
+  background: #444;
+}
+
+#team-mode-toggle {
+  margin-bottom: 8px;
 }
 
 .list-container {
@@ -133,6 +144,16 @@ h1 {
   object-fit: cover;
   border-radius: 3px;
   margin-right: 10px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
+}
+
+.enc-flag {
+  position: absolute;
+  left: 10px;
+  width: 32px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
 }
 
@@ -231,54 +252,8 @@ h1 {
   transform: scale(1.1);
 }
 
-.rating-toggle {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.enc-mode-button {
-  background: #222;
-  border: none;
-  padding: 8px 18px;
-  margin: 0 5px;
-  color: white;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 6px;
-}
-
-.enc-mode-button.active {
-  background: #444;
-}
-
-.enc-flag {
-  position: absolute;
-  left: 10px;
-  width: 32px;
-  height: 24px;
-  object-fit: cover;
-  border-radius: 4px;
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.15);
-}
-
 .rank-bar.roster-mode .rank-name {
   font-size: 15px;
-}
-
-.team-mode-button {
-  background: #222;
-  border: none;
-  padding: 8px 18px;
-  margin: 0 5px;
-  color: white;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 6px;
-}
-
-.team-mode-button.active {
-  background: #444;
 }
 
 @media (max-width: 768px) {
@@ -307,7 +282,6 @@ h1 {
   .rank-bar.roster-mode .rank-name {
     font-size: 14px;
   }
-
 }
 
 @media (max-width: 600px) {
