@@ -50,12 +50,13 @@
   { "name": "Reysbull", "rating": 162.53, "team": "MIBR", "country": "cl", "liquipedia": "https://liquipedia.net/rocketleague/Reysbull" },
   { "name": "Sadness", "rating": 166.35, "team": "MIBR", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Sadness" },
   { "name": "2Piece", "rating": 158.85, "team": "Virtus.pro", "country": "us", "liquipedia": "https://liquipedia.net/rocketleague/2Piece" },
-  { "name": "GiuK", "rating": 162.69, "team": "NOVO Esports", "country": "fr", "liquipedia": "https://liquipedia.net/rocketleague/GiuK" },
+  { "name": "GiuK", "rating": 161.69, "team": "NOVO Esports", "country": "fr", "liquipedia": "https://liquipedia.net/rocketleague/GiuK" },
   { "name": "Nico", "rating": 160.08, "team": "NOVO Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/Nico" },
-  { "name": "rehzzy", "rating": 162.80, "team": "NOVO Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Rehzzy" },
+  { "name": "rehzzy", "rating": 160.80, "team": "NOVO Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Rehzzy" },
   { "name": "Motta", "rating": 158.59, "team": "BANANA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Motta" },
   { "name": "Fever", "rating": 157.87, "team": "Wildcard", "country": "au", "liquipedia": "https://liquipedia.net/rocketleague/Fever" },
   { "name": "accro", "rating": 171.94, "team": "Man City Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Accro" },
   { "name": "ejby", "rating": 159.89, "team": "Man City Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/Ejby" },
-  { "name": "ops", "rating": 164.46, "team": "DOS", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ops" }
+  { "name": "ops", "rating": 164.46, "team": "DOS", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ops" },
+  { "name": "kv1", "rating": 166.84, "team": "BANANA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/kv1" }
 ]
