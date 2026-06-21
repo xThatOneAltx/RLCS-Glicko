@@ -48,7 +48,7 @@
   { "name": "CHEESE.", "rating": 163.62, "team": "FUT Esports", "country": "us", "liquipedia": "https://liquipedia.net/rocketleague/CHEESE" },
   { "name": "AtomiK", "rating": 167.08, "team": "Magnifico", "country": "es", "liquipedia": "https://liquipedia.net/rocketleague/AtomiK" },
   { "name": "Reysbull", "rating": 162.53, "team": "MIBR", "country": "cl", "liquipedia": "https://liquipedia.net/rocketleague/Reysbull" },
-  { "name": "Sadness", "rating": 166.35, "team": "MIBR", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Sadness" },
+  { "name": "Sadness", "rating": 164.35, "team": "MIBR", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Sadness" },
   { "name": "2Piece", "rating": 158.85, "team": "Virtus.pro", "country": "us", "liquipedia": "https://liquipedia.net/rocketleague/2Piece" },
   { "name": "GiuK", "rating": 161.69, "team": "NOVO Esports", "country": "fr", "liquipedia": "https://liquipedia.net/rocketleague/GiuK" },
   { "name": "Nico", "rating": 160.08, "team": "NOVO Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/Nico" },
@@ -58,5 +58,5 @@
   { "name": "accro", "rating": 171.94, "team": "Man City Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Accro" },
   { "name": "ejby", "rating": 159.89, "team": "Man City Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/Ejby" },
   { "name": "ops", "rating": 164.46, "team": "DOS", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ops" },
-  { "name": "kv1", "rating": 166.84, "team": "BANANA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/kv1" }
+  { "name": "kv1", "rating": 164.84, "team": "BANANA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/kv1" }
 ]
