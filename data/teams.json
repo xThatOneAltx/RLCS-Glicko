@@ -16,7 +16,7 @@
   {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1865, "color": "red", "logo": "logos/VP.png"},
   {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1882, "color": "red", "logo": "logos/FUT.png"},
   {"name": "Gen.G Mobil1 Racing", "players": ["MaJicBear", "frosty", "rise."], "rating": 1721, "color": "red", "logo": "logos/GENG.png"},
-  {"name": "Dignitas", "players": ["Evoh", "bora", "Fiv3Up"], "rating": 1744, "color": "red", "logo": "logos/DIG.png"},
+  {"name": "Dignitas", "players": ["Evoh", "bora", "Fiv3Up"], "rating": 1744.5, "color": "red", "logo": "logos/DIG.png"},
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1985, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1937, "color": "green", "logo": "logos/FLCN.png"},
