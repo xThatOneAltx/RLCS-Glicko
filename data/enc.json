@@ -2,14 +2,14 @@
   {
     "country": "France",
     "countryCode": "fr",
-    "rating": 2049,
+    "rating": 2073,
     "color": "blue",
     "players": ["Vatira", "zen", "juicy"]
   },
   {
     "country": "Saudi Arabia",
     "countryCode": "sa",
-    "rating": 2038,
+    "rating": 2024,
     "color": "green",
     "players": ["Rw9", "trk511", "Kiileerrz"]
   },
@@ -30,63 +30,63 @@
   {
     "country": "Belgium",
     "countryCode": "be",
-    "rating": 1895,
+    "rating": 1907,
     "color": "blue",
     "players": ["Atow.", "rysfox.", "Alpha54"]
   },
   {
     "country": "Brazil",
     "countryCode": "br",
-    "rating": 1890,
+    "rating": 1875,
     "color": "yellow",
     "players": ["swiftt.", "yANXNZ", "kv1"]
   },
   {
     "country": "United Kingdom",
     "countryCode": "gb",
-    "rating": 1884,
+    "rating": 1852,
     "color": "blue",
     "players": ["Archie", "Joyo", "ApparentlyJack"]
   },
   {
     "country": "Spain",
     "countryCode": "es",
-    "rating": 1880,
+    "rating": 1854,
     "color": "blue",
     "players": ["AtomiK", "crr", "stizzy"]
   },
   {
     "country": "Denmark",
     "countryCode": "dk",
-    "rating": 1847,
+    "rating": 1826,
     "color": "blue",
     "players": ["TempoH", "Nico", "ejby"]
   },
   {
     "country": "Canada",
     "countryCode": "ca",
-    "rating": 1825,
+    "rating": 1804,
     "color": "red",
     "players": ["reveal", "sosa", "Tawk"]
   },
   {
     "country": "Australia",
     "countryCode": "au",
-    "rating": 1806,
+    "rating": 1801,
     "color": "magenta",
     "players": ["gus", "Fever", "bananahead"]
   },
   {
     "country": "Germany",
     "countryCode": "de",
-    "rating": 1795,
+    "rating": 1811,
     "color": "blue",
     "players": ["Catalysm", "Tox", "Rezears"]
   },
   {
     "country": "Mexico",
     "countryCode": "mx",
-    "rating": 1743,
+    "rating": 1749,
     "color": "red",
     "players": ["kofyr", "CHEESE.", "Pollo"]
   },
@@ -100,7 +100,7 @@
   {
     "country": "Chile",
     "countryCode": "cl",
-    "rating": 1638,
+    "rating": 1642,
     "color": "yellow",
     "players": ["Reysbull", "pan", "nachosky"]
   }
