@@ -6,6 +6,7 @@ let encData = [];
 let teamMode = "3v3";
 let globalTeams = [];
 let global2v2 = [];
+let global1v1 = [];
 
 document.querySelectorAll(".tab-button").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -142,6 +143,51 @@ function render2v2(teams, showRoster = false) {
             ${showRoster ? team.players.join(" / ") : team.name}
           </span>
           <span class="rank-rating">${team.rating}</span>
+        </div>
+      </div>
+    `;
+
+    container.appendChild(div);
+  });
+}
+
+function render1v1(players, showRoster = false) {
+  const container = document.getElementById("teams-list");
+
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const sorted = [...players]
+    .sort((a, b) => b.rating - a.rating)
+    .slice(0, 15);
+
+  const maxRating = sorted[0].rating;
+
+  sorted.forEach((player, i) => {
+    const widthPercent =
+      (player.rating / maxRating) * 100;
+
+    const flag = flagUrl(player.country);
+
+    const div = document.createElement("div");
+
+    div.className = "rank-entry";
+
+    div.innerHTML = `
+      <div class="rank-number">${i + 1}</div>
+
+      <div class="rank-bar-wrapper">
+        <div class="rank-bar ${player.color}" style="width:${widthPercent}%;">
+          <img class="logo" src="${player.logo || ""}">
+
+          ${flag ? `<img class="flag" src="${flag}" alt="${player.country}">` : ""}
+
+          <span class="rank-name">
+            ${player.name}
+          </span>
+
+          <span class="rank-rating">${player.rating}</span>
         </div>
       </div>
     `;
@@ -337,6 +383,13 @@ function renderCurrentTeamMode() {
     );
   }
 
+  else if (teamMode === "1v1") {
+    render1v1(
+      global1v1,
+      teamDisplayMode === "roster"
+    );
+  }
+
   else {
     renderENC(
       teamDisplayMode === "roster"
@@ -347,6 +400,7 @@ function renderCurrentTeamMode() {
 async function init() {
   const teams = await loadJSON("data/teams.json");
   const twos = await loadJSON("data/2v2.json");
+  const ones = await loadJSON("data/1v1.json");
   const players = await loadJSON("data/players.json");
   const regions = await loadJSON("data/regions.json");
   const enc = await loadJSON("data/enc.json");
@@ -355,6 +409,7 @@ async function init() {
 
   globalTeams = teams;
   global2v2 = twos;
+  global1v1 = ones;
 
   globalPlayers = players;
   globalTeamMap = teamMap;
