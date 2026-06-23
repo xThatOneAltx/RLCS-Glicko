@@ -2,49 +2,49 @@
   {
     "name": "Europe",
     "shortName": "EU",
-    "rating": 1814,
+    "rating": 1800,
     "logo": "logos/EU.png",
     "color": "blue"
   },
   {
     "name": "North America",
     "shortName": "NA",
-    "rating": 1708,
+    "rating": 1679,
     "logo": "logos/NA.png",
     "color": "red"
   },
   {
     "name": "Middle East & North Africa",
     "shortName": "MENA",
-    "rating": 1609,
+    "rating": 1616,
     "logo": "logos/MENA.png",
     "color": "green"
   },
   {
     "name": "South America",
     "shortName": "SAM",
-    "rating": 1536,
+    "rating": 1519,
     "logo": "logos/SAM.png",
     "color": "yellow"
   },
   {
     "name": "Oceania",
     "shortName": "OCE",
-    "rating": 1346,
+    "rating": 1342,
     "logo": "logos/OCE.png",
     "color": "magenta"
   },
   {
     "name": "Asia-Pacific",
     "shortName": "APAC",
-    "rating": 1127,
+    "rating": 1993,
     "logo": "logos/APAC.png",
     "color": "cyan"
   },
   {
     "name": "Sub-Saharan Africa",
     "shortName": "SSA",
-    "rating": 960,
+    "rating": 917,
     "logo": "logos/SSA.png",
     "color": "black"
   }
