@@ -11,7 +11,7 @@
   {"name": "Rezears", "players": ["Rezears"], "rating": 1894, "team": "Griddy Goose", "country": "de", "color": "blue", "logo": "logos/GRG.png"},
   {"name": "juicy", "players": ["juicy"], "rating": 1885, "team": "Karmine Corp", "country": "fr", "color": "blue", "logo": "logos/KC.png"},
   {"name": "Firstkiller", "players": ["Firstkiller"], "rating": 1880, "team": "Shopify Rebellion", "country": "us", "color": "red", "logo": "logos/SR.png"},
-  {"name": "osaft", "players": ["osaft"], "rating": 1868, "team": "DEFAULT", "country": "de", "color": "blue", "logo": "logos/DEFAULT.png"},
-  {"name": "kv1", "players": ["kv1"], "rating": 1867, "team": "BS+COMPETITION", "country": "br", "color": "yellow", "logo": "logos/BSC.png"},
+  {"name": "osaft", "players": ["osaft"], "rating": 1863, "team": "DEFAULT", "country": "de", "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Nush", "players": ["Nush"], "rating": 1867, "team": "Stallions", "country": "sa", "color": "green", "logo": "logos/STL.png"},
   {"name": "swiftt.", "players": ["swiftt."], "rating": 1859, "team": "FURIA", "country": "br", "color": "yellow", "logo": "logos/FUR.png"}
 ]
