@@ -6,7 +6,7 @@
   {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1892, "color": "blue", "logo": "logos/NIP.png"},
   {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1859, "color": "blue", "logo": "logos/GK.png"},
   {"name": "Kaydop Corp", "players": ["Joyo", "Radosin", "Rezears"], "rating": 1870, "color": "blue", "logo": "logos/DEFAULT.png"},
-  {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1769, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1772, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1772, "color": "blue", "logo": "logos/NOVO.png"},
 
   {"name": "NRG", "players": ["Daniel", "Atomic", "BeastMode"], "rating": 1931, "color": "red", "logo": "logos/NRG.png"},
@@ -18,9 +18,9 @@
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1997, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1969, "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1829, "color": "green", "logo": "logos/R8.png"},
-  {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1773, "color": "green", "logo": "logos/Stallions.png"},
-  {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1764, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1833, "color": "green", "logo": "logos/R8.png"},
+  {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1776, "color": "green", "logo": "logos/Stallions.png"},
+  {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1774, "color": "green", "logo": "logos/DEFAULT.png"},
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1902, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1850, "color": "yellow", "logo": "logos/MIBR.png"},
