@@ -4,8 +4,8 @@
   {"name": "Gentle Mates", "players": ["Oski", "nass", "Archie"], "rating": 2021, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "players": ["Seikoo", "accro", "ejby"], "rating": 1909, "color": "blue", "logo": "logos/MC.png"},
   {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1892, "color": "blue", "logo": "logos/NIP.png"},
-  {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1859, "color": "blue", "logo": "logos/GK.png"},
-  {"name": "Kaydop Corp", "players": ["Joyo", "Radosin", "Rezears"], "rating": 1870, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1822, "color": "blue", "logo": "logos/GK.png"},
+  {"name": "Kaydop Corp", "players": ["Joyo", "Radosin", "Rezears"], "rating": 1879, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1772, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1772, "color": "blue", "logo": "logos/NOVO.png"},
 
