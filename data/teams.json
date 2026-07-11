@@ -4,19 +4,17 @@
   {"name": "Gentle Mates", "players": ["Oski", "nass", "Archie"], "rating": 2021, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "players": ["Seikoo", "accro", "ejby"], "rating": 1909, "color": "blue", "logo": "logos/MC.png"},
   {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1892, "color": "blue", "logo": "logos/NIP.png"},
-  {"name": "Geekay Esports", "players": ["TempoH", "Joyo", "ApparentlyJack"], "rating": 1758, "color": "blue", "logo": "logos/GK.png"},
-  {"name": "Kaydop Corp", "players": ["Alpha54", "Radosin", "mtzr"], "rating": 1875, "color": "blue", "logo": "logos/DEFAULT.png"},
-  {"name": "Griddy Goose", "players": ["Rezears", "Tox", "bibbaba"], "rating": 1790, "color": "blue", "logo": "logos/GRG.png"},
+  {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1859, "color": "blue", "logo": "logos/GK.png"},
+  {"name": "Kaydop Corp", "players": ["Joyo", "Radosin", "Rezears"], "rating": 1870, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1769, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1840, "color": "blue", "logo": "logos/NOVO.png"},
-  {"name": "Magnifico", "players": ["AtomiK", "yujin", "AcroniK."], "rating": 1769, "color": "blue", "logo": "logos/MAG.png"},
 
   {"name": "NRG", "players": ["Daniel", "Atomic", "BeastMode"], "rating": 1931, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "diaz", "zach"], "rating": 1913, "color": "red", "logo": "logos/SSG.png"},
   {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1985, "color": "red", "logo": "logos/SR.png"},
   {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1824, "color": "red", "logo": "logos/VP.png"},
   {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1894, "color": "red", "logo": "logos/FUT.png"},
-  {"name": "Gen.G Mobil1 Racing", "players": ["MaJicBear", "frosty", "rise."], "rating": 1670, "color": "red", "logo": "logos/GENG.png"},
-  {"name": "Dignitas", "players": ["Evoh", "bora", "Fiv3Up"], "rating": 1689, "color": "red", "logo": "logos/DIG.png"},
+  {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1720, "color": "red", "logo": "logos/DIG.png"},
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1997, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1969, "color": "green", "logo": "logos/FLCN.png"},
@@ -26,7 +24,6 @@
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1902, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1850, "color": "yellow", "logo": "logos/MIBR.png"},
-  {"name": "BANANA", "players": ["Motta", "suco", "DRUFINHO"], "rating": 1659, "color": "yellow", "logo": "logos/DEFAULT.png"},
   {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1782, "color": "yellow", "logo": "logos/BSC.png"},
 
   {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1768, "color": "magenta", "logo": "logos/WC.png"},
