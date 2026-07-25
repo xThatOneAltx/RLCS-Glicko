@@ -66,7 +66,7 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
-const TEAMS_LAST_UPDATED = "June 21, 2026 - Model v2.0 Update";
+const TEAMS_LAST_UPDATED = "July 24, 2026 - SAM/MENA LCQ";
 const PLAYERS_LAST_UPDATED = "June 21, 2026 - Model v2.0 Update";
 
 function setLastUpdated() {
