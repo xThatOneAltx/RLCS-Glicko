@@ -34,13 +34,13 @@
   { "name": "Lostt.", "rating": 165.43, "team": "FURIA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Lostt" },
   { "name": "Tawk", "rating": 164.38, "team": "Virtus.pro", "country": "ca", "liquipedia": "https://liquipedia.net/rocketleague/Tawk" },
   { "name": "crr", "rating": 164.31, "team": "Ninjas in Pyjamas", "country": "es", "liquipedia": "https://liquipedia.net/rocketleague/Crr" },
-  { "name": "Abdullah", "rating": 163.58, "team": "R8 Esports", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Abdullah" },
+  { "name": "Abdullah", "rating": 164.54, "team": "R8 Esports", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Abdullah" },
   { "name": "TempoH", "rating": 165.76, "team": "Geekay Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/TempoH" },
   { "name": "Alpha54", "rating": 166.71, "team": "Geekay Esports", "country": "be", "liquipedia": "https://liquipedia.net/rocketleague/Alpha54" },
-  { "name": "M7md", "rating": 164.56, "team": "R8 Esports", "country": "kw", "liquipedia": "https://liquipedia.net/rocketleague/M7md" },
+  { "name": "M7md", "rating": 166.54, "team": "R8 Esports", "country": "kw", "liquipedia": "https://liquipedia.net/rocketleague/M7md" },
   { "name": "diaz", "rating": 167.47, "team": "Spacestation Gaming", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Diaz" },
   { "name": "bananahead", "rating": 164.58, "team": "Wildcard", "country": "au", "liquipedia": "https://liquipedia.net/rocketleague/Bananahead" },
-  { "name": "Ghaazi", "rating": 164.24, "team": "R8 Esports", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ghaazi" },
+  { "name": "Ghaazi", "rating": 163.41, "team": "R8 Esports", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ghaazi" },
   { "name": "Radosin", "rating": 164.61, "team": "Kaydop Corp", "country": "fr", "liquipedia": "https://liquipedia.net/rocketleague/Radosin" },
   { "name": "Rezears", "rating": 168.62, "team": "Kaydop Corp", "country": "de", "liquipedia": "https://liquipedia.net/rocketleague/Rezears" },
   { "name": "Aztrø", "rating": 163.60, "team": "MIBR", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Aztro" },
@@ -57,6 +57,6 @@
   { "name": "Fever", "rating": 157.87, "team": "Wildcard", "country": "au", "liquipedia": "https://liquipedia.net/rocketleague/Fever" },
   { "name": "accro", "rating": 169.94, "team": "Man City Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Accro" },
   { "name": "ejby", "rating": 159.89, "team": "Man City Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/Ejby" },
-  { "name": "ops", "rating": 164.46, "team": "DOS", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ops" },
-  { "name": "kv1", "rating": 164.84, "team": "BS+COMPETITION", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/kv1" }
+  { "name": "ops", "rating": 164.79, "team": "DOS", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ops" },
+  { "name": "kv1", "rating": 164.56, "team": "BS+COMPETITION", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/kv1" }
 ]
