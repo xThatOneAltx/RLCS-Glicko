@@ -67,7 +67,7 @@ function flagUrl(countryCode) {
 }
 
 const TEAMS_LAST_UPDATED = "July 24, 2026 - SAM/MENA LCQ";
-const PLAYERS_LAST_UPDATED = "June 21, 2026 - Model v2.0 Update";
+const PLAYERS_LAST_UPDATED = "July 24, 2026 - SAM/MENA LCQ";
 
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
