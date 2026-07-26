@@ -14,7 +14,8 @@
   {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1987, "color": "red", "logo": "logos/SR.png"},
   {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1817, "color": "red", "logo": "logos/VP.png"},
   {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1900, "color": "red", "logo": "logos/FUT.png"},
-  {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1720, "color": "red", "logo": "logos/DIG.png"},
+  {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1707, "color": "red", "logo": "logos/DIG.png"},
+  {"name": "Gen.G Mobil1 Racing", "players": ["Evoh", "frosty", "MaJicBear"], "rating": 1723, "color": "red", "logo": "logos/GENG.png"},
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1998, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1960, "color": "green", "logo": "logos/FLCN.png"},
