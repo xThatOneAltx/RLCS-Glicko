@@ -30,7 +30,7 @@
   { "name": "swiftt.", "rating": 167.77, "team": "FURIA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Swiftt" },
   { "name": "Joyo", "rating": 162.50, "team": "Kaydop Corp", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Joyo" },
   { "name": "kofyr", "rating": 171.53, "team": "Shopify Rebellion", "country": "mx", "liquipedia": "https://liquipedia.net/rocketleague/Kofyr" },
-  { "name": "ApparentlyJack", "rating": 155.55, "team": "Geekay Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/ApparentlyJack" },
+  { "name": "ApparentlyJack", "rating": 155.55, "team": "Dignitas", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/ApparentlyJack" },
   { "name": "Lostt.", "rating": 162.55, "team": "FURIA", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/Lostt" },
   { "name": "Tawk", "rating": 162.61, "team": "Virtus.pro", "country": "ca", "liquipedia": "https://liquipedia.net/rocketleague/Tawk" },
   { "name": "crr", "rating": 164.89, "team": "Ninjas in Pyjamas", "country": "es", "liquipedia": "https://liquipedia.net/rocketleague/Crr" },
@@ -58,5 +58,6 @@
   { "name": "accro", "rating": 170.62, "team": "Man City Esports", "country": "gb", "liquipedia": "https://liquipedia.net/rocketleague/Accro" },
   { "name": "ejby", "rating": 159.82, "team": "Man City Esports", "country": "dk", "liquipedia": "https://liquipedia.net/rocketleague/Ejby" },
   { "name": "ops", "rating": 163.46, "team": "DOS", "country": "sa", "liquipedia": "https://liquipedia.net/rocketleague/Ops" },
-  { "name": "kv1", "rating": 163.26, "team": "BS+COMPETITION", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/kv1" }
+  { "name": "kv1", "rating": 163.26, "team": "BS+COMPETITION", "country": "br", "liquipedia": "https://liquipedia.net/rocketleague/kv1" },
+  { "name": "mtzr", "rating": 163.96, "team": "Geekay Esports", "country": "fr", "liquipedia": "https://liquipedia.net/rocketleague/mtzr" }
 ]
