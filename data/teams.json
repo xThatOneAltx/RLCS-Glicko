@@ -28,6 +28,6 @@
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1846, "color": "yellow", "logo": "logos/MIBR.png"},
   {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1773, "color": "yellow", "logo": "logos/BSC.png"},
 
-  {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1773, "color": "magenta", "logo": "logos/WC.png"},
-  {"name": "PWR", "players": ["gus", "Superlachie", "Fibérr"], "rating": 1747, "color": "magenta", "logo": "logos/PWR.png"}
+  {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1766, "color": "magenta", "logo": "logos/WC.png"},
+  {"name": "PWR", "players": ["gus", "Superlachie", "Fibérr"], "rating": 1755, "color": "magenta", "logo": "logos/PWR.png"}
 ]
