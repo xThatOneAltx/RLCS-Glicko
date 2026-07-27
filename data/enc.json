@@ -2,28 +2,28 @@
   {
     "country": "France",
     "countryCode": "fr",
-    "rating": 2073,
+    "rating": 2081,
     "color": "blue",
     "players": ["Vatira", "zen", "juicy"]
   },
   {
     "country": "Saudi Arabia",
     "countryCode": "sa",
-    "rating": 2024,
+    "rating": 2056,
     "color": "green",
     "players": ["Rw9", "trk511", "Kiileerrz"]
   },
   {
     "country": "United States",
     "countryCode": "us",
-    "rating": 2001,
+    "rating": 2003,
     "color": "red",
     "players": ["Atomic", "Daniel", "Firstkiller"]
   },
   {
     "country": "Netherlands",
     "countryCode": "nl",
-    "rating": 1961,
+    "rating": 1971,
     "color": "blue",
     "players": ["Joreuz", "oaly.", "nass"]
   },
@@ -37,71 +37,78 @@
   {
     "country": "Brazil",
     "countryCode": "br",
-    "rating": 1875,
+    "rating": 1876,
     "color": "yellow",
     "players": ["swiftt.", "yANXNZ", "kv1"]
   },
   {
     "country": "United Kingdom",
     "countryCode": "gb",
-    "rating": 1852,
+    "rating": 1856,
     "color": "blue",
     "players": ["Archie", "Joyo", "ApparentlyJack"]
   },
   {
     "country": "Spain",
     "countryCode": "es",
-    "rating": 1854,
+    "rating": 1897,
     "color": "blue",
     "players": ["AtomiK", "crr", "stizzy"]
   },
   {
     "country": "Denmark",
     "countryCode": "dk",
-    "rating": 1826,
+    "rating": 1787,
     "color": "blue",
     "players": ["TempoH", "Nico", "ejby"]
   },
   {
     "country": "Canada",
     "countryCode": "ca",
-    "rating": 1804,
+    "rating": 1783,
     "color": "red",
     "players": ["reveal", "sosa", "Tawk"]
   },
   {
     "country": "Australia",
     "countryCode": "au",
-    "rating": 1801,
+    "rating": 1786,
     "color": "magenta",
     "players": ["gus", "Fever", "bananahead"]
   },
   {
     "country": "Germany",
     "countryCode": "de",
-    "rating": 1804,
+    "rating": 1793,
     "color": "blue",
     "players": ["Catalysm", "Tox", "Rezears"]
   },
   {
     "country": "Mexico",
     "countryCode": "mx",
-    "rating": 1749,
+    "rating": 1704,
     "color": "red",
     "players": ["kofyr", "CHEESE.", "Pollo"]
   },
   {
     "country": "Morocco",
     "countryCode": "ma",
-    "rating": 1649,
+    "rating": 1642,
     "color": "green",
     "players": ["dralii", "AnoriQ", "skyrix"]
   },
   {
     "country": "Chile",
     "countryCode": "cl",
-    "rating": 1642,
+    "rating": 1612,
     "color": "yellow",
     "players": ["Reysbull", "pan", "nachosky"]
+  },
+  {
+    "country": "Kuwait",
+    "countryCode": "kw",
+    "rating": 1637,
+    "color": "green",
+    "players": ["Naizak", "M7md", "lynx"]
   }
 ]
