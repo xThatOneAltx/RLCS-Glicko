@@ -8,7 +8,7 @@
   {"name": "Kaydop Corp", "players": ["Joyo", "Radosin", "Rezears"], "rating": 1818, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1813, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1745, "color": "blue", "logo": "logos/NOVO.png"},
-  {"name": "Volare", "players": ["Tox", "growlii", "Crispy"], "rating": 1765, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Volare", "players": ["Tox", "growlii", "Crispy"], "rating": 1765, "color": "blue", "logo": "logos/VOL.png"},
   
   {"name": "NRG", "players": ["Daniel", "Atomic", "BeastMode"], "rating": 1933, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "diaz", "zach"], "rating": 1911, "color": "red", "logo": "logos/SSG.png"},
@@ -21,7 +21,7 @@
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1990, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1964, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1853, "color": "green", "logo": "logos/R8.png"},
-  {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1778, "color": "green", "logo": "logos/Stallions.png"},
+  {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1778, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1781, "color": "green", "logo": "logos/DEFAULT.png"},
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1894, "color": "yellow", "logo": "logos/FUR.png"},
