@@ -1,17 +1,17 @@
 [
-  {"name": "No Miss Just Fake", "players": ["zen", "Atow."], "rating": 2173, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "No Miss Just Fake", "players": ["zen", "Atow."], "rating": 2172, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Gentle Mates", "players": ["nass", "Oski"], "rating": 2024, "color": "blue", "logo": "logos/M8.png"},
-  {"name": "Karmine Corp", "players": ["Vatira", "juicy"], "rating": 1998, "color": "blue", "logo": "logos/KC.png"},
+  {"name": "Karmine Corp", "players": ["Vatira", "juicy"], "rating": 1981, "color": "blue", "logo": "logos/KC.png"},
   {"name": "Geekay Esports", "players": ["TempoH", "mtzr"], "rating": 1868, "color": "blue", "logo": "logos/GK.png"},
   {"name": "Manchester City", "players": ["Seikoo", "accro"], "rating": 1881, "color": "blue", "logo": "logos/MC.png"},
 
-  {"name": "Tequeños", "players": ["Firstkiller", "Atomic"], "rating": 1883, "color": "red", "logo": "logos/DEFAULT.png"},
+  {"name": "Tequeños", "players": ["Firstkiller", "Atomic"], "rating": 1898, "color": "red", "logo": "logos/DEFAULT.png"},
   {"name": "NRG", "players": ["Daniel", "BeastMode"], "rating": 1852, "color": "red", "logo": "logos/NRG.png"},
-  {"name": "Spacestation Gaming", "players": ["zach", "reveal"], "rating": 1923, "color": "red", "logo": "logos/SSG.png"},
-  {"name": "Awwww", "players": ["CHEESE.", "Tawk"], "rating": 1893, "color": "red", "logo": "logos/DEFAULT.png"},
+  {"name": "Spacestation Gaming", "players": ["zach", "reveal"], "rating": 1956, "color": "red", "logo": "logos/SSG.png"},
+  {"name": "Awwww", "players": ["CHEESE.", "Tawk"], "rating": 1887, "color": "red", "logo": "logos/DEFAULT.png"},
   {"name": "Not Really Good", "players": ["Evoh", "diaz"], "rating": 1879, "color": "red", "logo": "logos/DEFAULT.png"},
 
-  {"name": "World Champs", "players": ["Nwpo", "dralii"], "rating": 1949, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "World Champs", "players": ["Nwpo", "dralii"], "rating": 1962, "color": "green", "logo": "logos/DEFAULT.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz"], "rating": 2019, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "511", "players": ["trk511", "Ghaazi"], "rating": 1994, "color": "green", "logo": "logos/DEFAULT.png"},
   {"name": "One Hit", "players": ["DrKnown", "ops"], "rating": 1839, "color": "green", "logo": "logos/DEFAULT.png"},
