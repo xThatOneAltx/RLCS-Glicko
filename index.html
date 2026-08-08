@@ -88,8 +88,8 @@
 
         <h2>Prediction Accuracy</h2>
 
-        <p><strong>Overall Prediction Rate:</strong> ~81%</p>
-        <p><strong>LAN Prediction Rate:</strong> ~78%</p>
+        <p><strong>Overall Prediction Rate:</strong> 81.4%</p>
+        <p><strong>LAN Prediction Rate:</strong> 78.2%</p>
 
         <h2>Overview</h2>
 
@@ -99,40 +99,66 @@
         </p>
 
         <p>
-          At its core, the system combines an Elo-style team rating model
+          At its core, the model combines an Elo-style team rating model
           with statistically derived player ratings to estimate team strength
           and predict match outcomes. Ratings are continuously updated based
           on performance, with an emphasis on both consistency and recent form.
+          Currently, RLCS Glicko maintains the highest recorded match prediction
+          rate, both online and on LAN.
         </p>
 
         <h2>Team Ratings</h2>
 
         <p>
           Initial team ratings are generated directly from player ratings.
+          However, it does not simply stack talent. Rather it also analyzes the
+          preferred playstyles of each individual player and estimates the
+          expected team cohesion on the pitch.
+        </p>
+          
+        <p>
           From there, ratings adjust after every match based on wins and losses
           using the
           <a href="https://en.wikipedia.org/wiki/Glicko_rating_system" target="_blank">
-            Glicko rating system
-          </a>.
+            Glicko rating system.
+          </a>Additionally, at the end of an
+          event, the model backtracks, iterating over the entirety of the
+          tournament to better understand exactly how each team was playing at
+          that specific event. It then adjusts the total Glicko loss/gain
+          based on this increased context. For example, say Team A is rated 2900
+          and Team B is rated 2700 coming into an event. Team B then goes ahead
+          and beats Team A 3-1. Let's further say that this results in Team B
+          gaining 25 rating points based on the traditional Glicko methodology.
+          At the end of the event, RLCS Glicko looks back at the rest of Team
+          A's matches and finds that they consistently lost to teams rated well
+          below them. This then takes away from Team B's ELO gain from that
+          series, as Team A clearly wasn't playing at it's expected level.
         </p>
 
         <p>
-          Not all matches are weighted equally. International LAN events carry
-          the highest importance, while online matches — particularly
-          non-elimination matches — have lower weighting.
+          Furthermore, not all matches are weighted equally. International LANs
+          carry the highest importance, while online matches — particularly
+          non-elimination matches — have less impact on overall team ratings.
+          This change was made after tests showed that better teams have a
+          tendency to play slightly worse for matches that are "less important."
         </p>
 
         <h2>Player Ratings</h2>
 
         <p>
           Player ratings are calculated at the conclusion of every 3v3 event using
-          a combination of individual performance metrics and team success.
+          a combination of individual performance metrics ranging from small pads
+          stolen to % of challenges resulting in maintained possession, as well as
+          team success throughout the tournament.
         </p>
 
         <p>
           Unlike team ratings, player ratings are intended to estimate a player's
-          underlying ability over a longer period of time while still placing
-          greater emphasis on recent performances.
+          underlying ability over the past year and a half while still placing
+          greater emphasis on recent performances. In order to account for rapid
+          increases in skill, the model adjusts the exact weighting of each
+          event based on player age. For a 16 year old there is more recency
+          bias than for a 20 year old.
         </p>
 
         <p>
