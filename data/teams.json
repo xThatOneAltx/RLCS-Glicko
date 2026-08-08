@@ -7,8 +7,8 @@
   {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1789, "color": "blue", "logo": "logos/GK.png"},
   {"name": "The LANimals", "players": ["Joyo", "rise.", "Rezears"], "rating": 1787, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "PCS Stride", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1813, "color": "blue", "logo": "logos/PCS.png"},
-  {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1745, "color": "blue", "logo": "logos/NOVO.png"},
-  {"name": "Volare", "players": ["Tox", "growlii", "Crispy"], "rating": 1765, "color": "blue", "logo": "logos/VOL.png"},
+  {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1755, "color": "blue", "logo": "logos/NOVO.png"},
+  {"name": "Volare", "players": ["Tox", "growlii", "Crispy"], "rating": 1755, "color": "blue", "logo": "logos/VOL.png"},
   
   {"name": "NRG", "players": ["Daniel", "Atomic", "BeastMode"], "rating": 1933, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "diaz", "zach"], "rating": 1911, "color": "red", "logo": "logos/SSG.png"},
