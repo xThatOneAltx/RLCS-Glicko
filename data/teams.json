@@ -4,9 +4,9 @@
   {"name": "Gentle Mates", "players": ["Oski", "nass", "Archie"], "rating": 2022, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "players": ["Seikoo", "accro", "ejby"], "rating": 1905, "color": "blue", "logo": "logos/MC.png"},
   {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1894, "color": "blue", "logo": "logos/NIP.png"},
-  {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1789, "color": "blue", "logo": "logos/GK.png"},
-  {"name": "The LANimals", "players": ["Joyo", "rise.", "Rezears"], "rating": 1787, "color": "blue", "logo": "logos/DEFAULT.png"},
-  {"name": "PCS Stride", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1813, "color": "blue", "logo": "logos/PCS.png"},
+  {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1799, "color": "blue", "logo": "logos/GK.png"},
+  {"name": "The LANimals", "players": ["Joyo", "rise.", "Rezears"], "rating": 1797, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "PCS Stride", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1803, "color": "blue", "logo": "logos/PCS.png"},
   {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1755, "color": "blue", "logo": "logos/NOVO.png"},
   {"name": "Volare", "players": ["Tox", "growlii", "Crispy"], "rating": 1755, "color": "blue", "logo": "logos/VOL.png"},
   
@@ -21,12 +21,12 @@
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1990, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1964, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1853, "color": "green", "logo": "logos/R8.png"},
-  {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1778, "color": "green", "logo": "logos/STL.png"},
+  {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1788, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1781, "color": "green", "logo": "logos/DEFAULT.png"},
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1894, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1846, "color": "yellow", "logo": "logos/MIBR.png"},
-  {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1773, "color": "yellow", "logo": "logos/BSC.png"},
+  {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1763, "color": "yellow", "logo": "logos/BSC.png"},
 
   {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1766, "color": "magenta", "logo": "logos/WC.png"},
   {"name": "PWR", "players": ["gus", "Superlachie", "Fibérr"], "rating": 1755, "color": "magenta", "logo": "logos/PWR.png"}
