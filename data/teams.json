@@ -3,7 +3,7 @@
   {"name": "Team Vitality", "players": ["zen", "stizzy", "ExoTiiK"], "rating": 2060, "color": "blue", "logo": "logos/VIT.png"},
   {"name": "Gentle Mates", "players": ["Oski", "nass", "Archie"], "rating": 2022, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "players": ["Seikoo", "accro", "ejby"], "rating": 1866, "color": "blue", "logo": "logos/MC.png"},
-  {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1894, "color": "blue", "logo": "logos/NIP.png"},
+  {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1904, "color": "blue", "logo": "logos/NIP.png"},
   {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1797, "color": "blue", "logo": "logos/GK.png"},
   {"name": "The LANimals", "players": ["Joyo", "rise.", "Rezears"], "rating": 1775, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1825, "color": "blue", "logo": "logos/DEFAULT.png"},
@@ -12,7 +12,7 @@
   
   {"name": "NRG", "players": ["Daniel", "Atomic", "BeastMode"], "rating": 1883, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "diaz", "zach"], "rating": 1911, "color": "red", "logo": "logos/SSG.png"},
-  {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1983, "color": "red", "logo": "logos/SR.png"},
+  {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1963, "color": "red", "logo": "logos/SR.png"},
   {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1826, "color": "red", "logo": "logos/VP.png"},
   {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1902, "color": "red", "logo": "logos/FUT.png"},
   {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1755, "color": "red", "logo": "logos/DIG.png"},
