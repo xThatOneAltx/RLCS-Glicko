@@ -1,7 +1,7 @@
 [
   {"name": "Karmine Corp", "players": ["Vatira", "Atow.", "juicy"], "rating": 2078, "color": "blue", "logo": "logos/KC.png"},
   {"name": "Team Vitality", "players": ["zen", "stizzy", "ExoTiiK"], "rating": 2059, "color": "blue", "logo": "logos/VIT.png"},
-  {"name": "Gentle Mates", "players": ["Oski", "nass", "Archie"], "rating": 2041, "color": "blue", "logo": "logos/M8.png"},
+  {"name": "Gentle Mates", "players": ["Oski", "nass", "Archie"], "rating": 2017, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "players": ["Seikoo", "accro", "ejby"], "rating": 1866, "color": "blue", "logo": "logos/MC.png"},
   {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1925, "color": "blue", "logo": "logos/NIP.png"},
   {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1797, "color": "blue", "logo": "logos/GK.png"},
@@ -19,7 +19,7 @@
   {"name": "Gen.G Mobil1 Racing", "players": ["Evoh", "frosty", "MaJicBear"], "rating": 1741, "color": "red", "logo": "logos/GENG.png"},
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1994, "color": "green", "logo": "logos/TWIS.png"},
-  {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1974, "color": "green", "logo": "logos/FLCN.png"},
+  {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 2006, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1850, "color": "green", "logo": "logos/R8.png"},
   {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1837, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1791, "color": "green", "logo": "logos/DEFAULT.png"},
