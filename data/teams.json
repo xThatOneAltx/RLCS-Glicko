@@ -24,8 +24,8 @@
   {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1837, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1791, "color": "green", "logo": "logos/DEFAULT.png"},
   
-  {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1871, "color": "yellow", "logo": "logos/FUR.png"},
-  {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1837, "color": "yellow", "logo": "logos/MIBR.png"},
+  {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1867, "color": "yellow", "logo": "logos/FUR.png"},
+  {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1838, "color": "yellow", "logo": "logos/MIBR.png"},
   {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1780, "color": "yellow", "logo": "logos/BSC.png"},
 
   {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1731, "color": "magenta", "logo": "logos/WC.png"},
