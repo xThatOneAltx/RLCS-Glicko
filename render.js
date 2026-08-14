@@ -66,8 +66,8 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
-const TEAMS_LAST_UPDATED = "August 12, 2026 - EWC Day 1";
-const PLAYERS_LAST_UPDATED = "August 12, 2026 - EWC Day 1";
+const TEAMS_LAST_UPDATED = "August 13, 2026 - EWC Day 2";
+const PLAYERS_LAST_UPDATED = "August 13, 2026 - EWC Day 2";
 
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
