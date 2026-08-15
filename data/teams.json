@@ -18,8 +18,8 @@
   {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1755, "color": "red", "logo": "logos/DIG.png"},
   {"name": "Gen.G Mobil1 Racing", "players": ["Evoh", "frosty", "MaJicBear"], "rating": 1741, "color": "red", "logo": "logos/GENG.png"},
 
-  {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 2003, "color": "green", "logo": "logos/TWIS.png"},
-  {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 1996, "color": "green", "logo": "logos/FLCN.png"},
+  {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 1993, "color": "green", "logo": "logos/TWIS.png"},
+  {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 2007, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1880, "color": "green", "logo": "logos/R8.png"},
   {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1837, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1791, "color": "green", "logo": "logos/DEFAULT.png"},
