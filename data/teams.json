@@ -12,7 +12,7 @@
   
   {"name": "NRG", "players": ["Daniel", "Atomic", "BeastMode"], "rating": 1897, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "diaz", "zach"], "rating": 1960, "color": "red", "logo": "logos/SSG.png"},
-  {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1954, "color": "red", "logo": "logos/SR.png"},
+  {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1955, "color": "red", "logo": "logos/SR.png"},
   {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1830, "color": "red", "logo": "logos/VP.png"},
   {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1905, "color": "red", "logo": "logos/FUT.png"},
   {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1755, "color": "red", "logo": "logos/DIG.png"},
