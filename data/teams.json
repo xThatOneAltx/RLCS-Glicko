@@ -1,9 +1,9 @@
 [
-  {"name": "Karmine Corp", "players": ["Vatira", "Atow.", "juicy"], "rating": 2009, "color": "blue", "logo": "logos/KC.png"},
+  {"name": "Karmine Corp", "players": ["Vatira", "Atow.", "juicy"], "rating": 1992, "color": "blue", "logo": "logos/KC.png"},
   {"name": "Team Vitality", "players": ["zen", "stizzy", "ExoTiiK"], "rating": 2006, "color": "blue", "logo": "logos/VIT.png"},
   {"name": "Gentle Mates", "players": ["Oski", "nass", "Archie"], "rating": 1989, "color": "blue", "logo": "logos/M8.png"},
   {"name": "Man City Esports", "players": ["Seikoo", "accro", "ejby"], "rating": 1866, "color": "blue", "logo": "logos/MC.png"},
-  {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1953, "color": "blue", "logo": "logos/NIP.png"},
+  {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1958, "color": "blue", "logo": "logos/NIP.png"},
   {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1797, "color": "blue", "logo": "logos/GK.png"},
   {"name": "The LANimals", "players": ["Joyo", "rise.", "Rezears"], "rating": 1775, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1825, "color": "blue", "logo": "logos/DEFAULT.png"},
