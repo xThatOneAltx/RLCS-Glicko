@@ -5,14 +5,37 @@ body {
   color: white;
 }
 
-header {
-  text-align: center;
-  padding: 20px 0;
-}
-
 h1 {
   margin: 0;
   font-size: 32px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.x-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.x-link img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.x-link:hover img {
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 .tabs {
