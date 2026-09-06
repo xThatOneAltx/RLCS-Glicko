@@ -9,105 +9,112 @@
   {
     "country": "Saudi Arabia",
     "countryCode": "sa",
-    "rating": 2060,
+    "rating": 2051,
     "color": "green",
     "players": ["Rw9", "trk511", "Kiileerrz"]
   },
   {
     "country": "United States",
     "countryCode": "us",
-    "rating": 1998,
+    "rating": 2003,
     "color": "red",
     "players": ["Atomic", "Daniel", "Firstkiller"]
   },
   {
     "country": "Netherlands",
     "countryCode": "nl",
-    "rating": 1990,
+    "rating": 1861,
     "color": "blue",
-    "players": ["Joreuz", "oaly.", "nass"]
+    "players": ["Joreuz", "oaly.", "justuszzz"]
   },
   {
     "country": "Belgium",
     "countryCode": "be",
-    "rating": 1892,
+    "rating": 1860,
     "color": "blue",
     "players": ["Atow.", "rysfox.", "Alpha54"]
   },
   {
     "country": "Brazil",
     "countryCode": "br",
-    "rating": 1843,
+    "rating": 1851,
     "color": "yellow",
     "players": ["swiftt.", "yANXNZ", "kv1"]
   },
   {
     "country": "United Kingdom",
     "countryCode": "gb",
-    "rating": 1879,
+    "rating": 1909,
     "color": "blue",
-    "players": ["Archie", "Joyo", "ApparentlyJack"]
+    "players": ["Archie", "Joyo", "accro"]
   },
   {
     "country": "Spain",
     "countryCode": "es",
-    "rating": 1927,
+    "rating": 1928,
     "color": "blue",
     "players": ["AtomiK", "crr", "stizzy"]
   },
   {
     "country": "Denmark",
     "countryCode": "dk",
-    "rating": 1788,
+    "rating": 1787,
     "color": "blue",
     "players": ["TempoH", "Nico", "ejby"]
   },
   {
     "country": "Canada",
     "countryCode": "ca",
-    "rating": 1792,
+    "rating": 1809,
     "color": "red",
-    "players": ["reveal", "sosa", "Tawk"]
+    "players": ["reveal", "PNDH", "Tawk"]
   },
   {
     "country": "Australia",
     "countryCode": "au",
-    "rating": 1727,
+    "rating": 1752,
     "color": "magenta",
-    "players": ["gus", "Fever", "bananahead"]
+    "players": ["gus", "Fibérr", "bananahead"]
   },
   {
     "country": "Germany",
     "countryCode": "de",
-    "rating": 1804,
+    "rating": 1803,
     "color": "blue",
-    "players": ["Catalysm", "Tox", "Rezears"]
+    "players": ["osaft", "Tox", "Rezears"]
+  },
+  {
+    "country": "Italy",
+    "countryCode": "it",
+    "rating": 1694,
+    "color": "blue",
+    "players": ["Gramma", "Hyderr", "tms"]
   },
   {
     "country": "Mexico",
     "countryCode": "mx",
-    "rating": 1694,
+    "rating": 1654,
     "color": "red",
-    "players": ["kofyr", "CHEESE.", "Pollo"]
+    "players": ["kofyr", "percy.", "Pollo"]
   },
   {
     "country": "Morocco",
     "countryCode": "ma",
-    "rating": 1706,
+    "rating": 1898,
     "color": "green",
-    "players": ["dralii", "AnoriQ", "skyrix"]
+    "players": ["dralii", "AnoriQ", "nass"]
   },
   {
     "country": "Chile",
     "countryCode": "cl",
-    "rating": 1610,
+    "rating": 1602,
     "color": "yellow",
     "players": ["Reysbull", "pan", "nachosky"]
   },
   {
     "country": "Kuwait",
     "countryCode": "kw",
-    "rating": 1665,
+    "rating": 1664,
     "color": "green",
     "players": ["Naizak", "M7md", "lynx"]
   }
