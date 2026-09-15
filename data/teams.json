@@ -20,16 +20,17 @@
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 2026, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 2047, "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1875, "color": "green", "logo": "logos/R8.png"},
+  {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1841, "color": "green", "logo": "logos/R8.png"},
   {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1837, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1815, "color": "green", "logo": "logos/DEFAULT.png"},
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1843, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1834, "color": "yellow", "logo": "logos/MIBR.png"},
   {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1768, "color": "yellow", "logo": "logos/BSC.png"},
+  {"name": "Bigodes", "players": ["DRUFINHO", "Bemmz", "nxghtt"], "rating": 1756, "color": "green", "logo": "logos/DEFAULT.png"},
 
   {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1676, "color": "magenta", "logo": "logos/WC.png"},
   {"name": "PWR", "players": ["gus", "Superlachie", "Fibérr"], "rating": 1685, "color": "magenta", "logo": "logos/PWR.png"},
 
-  {"name": "TSM", "players": ["Sphinx", "Catalysm", "Kevin"], "rating": 1768, "color": "cyan", "logo": "logos/TSM.png"}
+  {"name": "TSM", "players": ["Sphinx", "Catalysm", "Kevin"], "rating": 1753, "color": "cyan", "logo": "logos/TSM.png"}
 ]
