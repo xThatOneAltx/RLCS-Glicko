@@ -6,21 +6,21 @@
   {"name": "Ninjas in Pyjamas", "players": ["Joreuz", "oaly.", "crr"], "rating": 1967, "color": "blue", "logo": "logos/NIP.png"},
   {"name": "Geekay Esports", "players": ["TempoH", "Alpha54", "mtzr"], "rating": 1796, "color": "blue", "logo": "logos/GK.png"},
   {"name": "The LANimals", "players": ["Joyo", "rise.", "Rezears"], "rating": 1765, "color": "blue", "logo": "logos/DEFAULT.png"},
-  {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1827, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Mate y Tapa", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1804, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "NOVO Esports", "players": ["Nico", "GiuK", "rehzzy"], "rating": 1741, "color": "blue", "logo": "logos/NOVO.png"},
   {"name": "Volare", "players": ["Tox", "growlii", "Crispy"], "rating": 1784, "color": "blue", "logo": "logos/VOL.png"},
   
   {"name": "NRG", "players": ["Daniel", "Atomic", "BeastMode"], "rating": 1888, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "diaz", "zach"], "rating": 1976, "color": "red", "logo": "logos/SSG.png"},
   {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1960, "color": "red", "logo": "logos/SR.png"},
-  {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1834, "color": "red", "logo": "logos/VP.png"},
-  {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1904, "color": "red", "logo": "logos/FUT.png"},
+  {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1847, "color": "red", "logo": "logos/VP.png"},
+  {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1894, "color": "red", "logo": "logos/FUT.png"},
   {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1748, "color": "red", "logo": "logos/DIG.png"},
   {"name": "Gen.G Mobil1 Racing", "players": ["Evoh", "frosty", "MaJicBear"], "rating": 1743, "color": "red", "logo": "logos/GENG.png"},
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "M0nkey M00n"], "rating": 2026, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 2047, "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1879, "color": "green", "logo": "logos/R8.png"},
+  {"name": "R8 Esports", "players": ["Abdullah", "M7md", "Ghaazi"], "rating": 1875, "color": "green", "logo": "logos/R8.png"},
   {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1837, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1815, "color": "green", "logo": "logos/DEFAULT.png"},
   
@@ -31,5 +31,5 @@
   {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1676, "color": "magenta", "logo": "logos/WC.png"},
   {"name": "PWR", "players": ["gus", "Superlachie", "Fibérr"], "rating": 1685, "color": "magenta", "logo": "logos/PWR.png"},
 
-  {"name": "TSM", "players": ["Sphinx", "Catalysm", "Kevin"], "rating": 1723, "color": "cyan", "logo": "logos/TSM.png"}
+  {"name": "TSM", "players": ["Sphinx", "Catalysm", "Kevin"], "rating": 1768, "color": "cyan", "logo": "logos/TSM.png"}
 ]
