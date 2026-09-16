@@ -27,7 +27,7 @@
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1843, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1834, "color": "yellow", "logo": "logos/MIBR.png"},
   {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1768, "color": "yellow", "logo": "logos/BSC.png"},
-  {"name": "Bigodes", "players": ["DRUFINHO", "Bemmz", "nxghtt"], "rating": 1756, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "Bigodes", "players": ["DRUFINHO", "Bemmz", "nxghtt"], "rating": 1756, "color": "yellow", "logo": "logos/DEFAULT.png"},
 
   {"name": "Wildcard", "players": ["bananahead", "Fever", "Torsos"], "rating": 1676, "color": "magenta", "logo": "logos/WC.png"},
   {"name": "PWR", "players": ["gus", "Superlachie", "Fibérr"], "rating": 1685, "color": "magenta", "logo": "logos/PWR.png"},
