@@ -14,7 +14,7 @@
   {"name": "Spacestation Gaming", "players": ["reveal", "diaz", "zach"], "rating": 1982, "color": "red", "logo": "logos/SSG.png"},
   {"name": "Shopify Rebellion", "players": ["Firstkiller", "kofyr", "Lj"], "rating": 1920, "color": "red", "logo": "logos/SR.png"},
   {"name": "Virtus.pro", "players": ["Tawk", "Wahvey", "2Piece"], "rating": 1922, "color": "red", "logo": "logos/VP.png"},
-  {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1931, "color": "red", "logo": "logos/FUT.png"},
+  {"name": "FUT Esports", "players": ["Chronic", "jstn.", "CHEESE."], "rating": 1966, "color": "red", "logo": "logos/FUT.png"},
   {"name": "Dignitas", "players": ["ApparentlyJack", "bora", "Fiv3Up"], "rating": 1748, "color": "red", "logo": "logos/DIG.png"},
   {"name": "Gen.G Mobil1 Racing", "players": ["Evoh", "frosty", "MaJicBear"], "rating": 1733, "color": "red", "logo": "logos/GENG.png"},
 
@@ -24,7 +24,7 @@
   {"name": "Stallions", "players": ["Nush", "Trook", "Twiz"], "rating": 1837, "color": "green", "logo": "logos/STL.png"},
   {"name": "DOS", "players": ["DrKnown", "ops", "Suspect"], "rating": 1785, "color": "green", "logo": "logos/DEFAULT.png"},
   
-  {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1917, "color": "yellow", "logo": "logos/FUR.png"},
+  {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "Lostt."], "rating": 1899, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1843, "color": "yellow", "logo": "logos/MIBR.png"},
   {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1768, "color": "yellow", "logo": "logos/BSC.png"},
   {"name": "Bigodes", "players": ["DRUFINHO", "Bemmz", "nxghtt"], "rating": 1733, "color": "yellow", "logo": "logos/DEFAULT.png"},
