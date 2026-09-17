@@ -9,28 +9,28 @@
   {
     "name": "North America",
     "shortName": "NA",
-    "rating": 1676,
+    "rating": 1684,
     "logo": "logos/NA.png",
     "color": "red"
   },
   {
     "name": "Middle East & North Africa",
     "shortName": "MENA",
-    "rating": 1627,
+    "rating": 1625,
     "logo": "logos/MENA.png",
     "color": "green"
   },
   {
     "name": "South America",
     "shortName": "SAM",
-    "rating": 1496,
+    "rating": 1506,
     "logo": "logos/SAM.png",
     "color": "yellow"
   },
   {
     "name": "Oceania",
     "shortName": "OCE",
-    "rating": 1299,
+    "rating": 1297,
     "logo": "logos/OCE.png",
     "color": "magenta"
   },
