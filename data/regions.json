@@ -9,21 +9,21 @@
   {
     "name": "North America",
     "shortName": "NA",
-    "rating": 1684,
+    "rating": 1702,
     "logo": "logos/NA.png",
     "color": "red"
   },
   {
     "name": "Middle East & North Africa",
     "shortName": "MENA",
-    "rating": 1625,
+    "rating": 1622,
     "logo": "logos/MENA.png",
     "color": "green"
   },
   {
     "name": "South America",
     "shortName": "SAM",
-    "rating": 1506,
+    "rating": 1503,
     "logo": "logos/SAM.png",
     "color": "yellow"
   },
