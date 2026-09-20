@@ -9,14 +9,14 @@
   {
     "name": "North America",
     "shortName": "NA",
-    "rating": 1700,
+    "rating": 1699,
     "logo": "logos/NA.png",
     "color": "red"
   },
   {
     "name": "Middle East & North Africa",
     "shortName": "MENA",
-    "rating": 1631,
+    "rating": 1634,
     "logo": "logos/MENA.png",
     "color": "green"
   },
@@ -30,21 +30,21 @@
   {
     "name": "Oceania",
     "shortName": "OCE",
-    "rating": 1309,
+    "rating": 1308,
     "logo": "logos/OCE.png",
     "color": "magenta"
   },
   {
     "name": "Asia-Pacific",
     "shortName": "APAC",
-    "rating": 1234,
+    "rating": 1235,
     "logo": "logos/APAC.png",
     "color": "cyan"
   },
   {
     "name": "Sub-Saharan Africa",
     "shortName": "SSA",
-    "rating": 919,
+    "rating": 920,
     "logo": "logos/SSA.png",
     "color": "black"
   }
