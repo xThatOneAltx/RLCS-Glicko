@@ -2,14 +2,14 @@
   {
     "country": "France",
     "countryCode": "fr",
-    "rating": 2074,
+    "rating": 2064,
     "color": "blue",
     "players": ["Vatira", "zen", "juicy"]
   },
   {
     "country": "Saudi Arabia",
     "countryCode": "sa",
-    "rating": 2071,
+    "rating": 2061,
     "color": "green",
     "players": ["Rw9", "Nwpo", "Kiileerrz"]
   },
@@ -18,7 +18,7 @@
     "countryCode": "us",
     "rating": 2003,
     "color": "red",
-    "players": ["Atomic", "Daniel", "Firstkiller"]
+    "players": ["Firstkiller", "Atomic", "Daniel"]
   },
   {
     "country": "Netherlands",
@@ -37,9 +37,9 @@
   {
     "country": "Brazil",
     "countryCode": "br",
-    "rating": 1865,
+    "rating": 1887,
     "color": "yellow",
-    "players": ["swiftt.", "yANXNZ", "kv1"]
+    "players": ["swiftt.", "yANXNZ", "diaz"]
   },
   {
     "country": "United Kingdom",
@@ -91,16 +91,9 @@
     "players": ["Gramma", "Hyderr", "tms"]
   },
   {
-    "country": "Mexico",
-    "countryCode": "mx",
-    "rating": 1641,
-    "color": "red",
-    "players": ["kofyr", "percy.", "Pollo"]
-  },
-  {
     "country": "Morocco",
     "countryCode": "ma",
-    "rating": 1873,
+    "rating": 1883,
     "color": "green",
     "players": ["dralii", "AnoriQ", "nass"]
   },
