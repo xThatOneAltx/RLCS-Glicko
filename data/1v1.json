@@ -1,18 +1,18 @@
 [
   {"name": "Nwpo", "players": ["Nwpo"], "rating": 2012, "team": "Twisted Minds", "country": "sa", "color": "green", "logo": "logos/TWIS.png"},
-  {"name": "nass", "players": ["nass"], "rating": 2105, "team": "Team Vitality", "country": "ma", "color": "blue", "logo": "logos/M8.png"},
+  {"name": "nass", "players": ["nass"], "rating": 2105, "team": "Team Vitality", "country": "ma", "color": "blue", "logo": "logos/VIT.png"},
   {"name": "Rw9", "players": ["Rw9"], "rating": 1933, "team": "Team Falcons", "country": "sa", "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "zen", "players": ["zen"], "rating": 2017, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/VIT.png"},
+  {"name": "zen", "players": ["zen"], "rating": 2017, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/M8.png"},
   {"name": "Mawkzy", "players": ["Mawkzy"], "rating": 1976, "team": "DEFAULT", "country": "fr", "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "dralii", "players": ["dralii"], "rating": 1979, "team": "Team Falcons", "country": "ma", "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "Atow.", "players": ["Atow."], "rating": 1934, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/KC.png"},
-  {"name": "diaz", "players": ["diaz"], "rating": 2005, "team": "Team Vitality", "country": "br", "color": "red", "logo": "logos/SSG.png"},
-  {"name": "Vatira", "players": ["Vatira"], "rating": 1892, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/KC.png"},
-  {"name": "Rezears", "players": ["Rezears"], "rating": 1895, "team": "Ikkaku", "country": "de", "color": "blue", "logo": "logos/GRG.png"},
-  {"name": "juicy", "players": ["juicy"], "rating": 1886, "team": "Geekay Esports", "country": "fr", "color": "blue", "logo": "logos/KC.png"},
+  {"name": "Atow.", "players": ["Atow."], "rating": 1934, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/M8.png"},
+  {"name": "diaz", "players": ["diaz"], "rating": 2005, "team": "Team Vitality", "country": "br", "color": "red", "logo": "logos/VIT.png"},
+  {"name": "Vatira", "players": ["Vatira"], "rating": 1892, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/M8.png"},
+  {"name": "Rezears", "players": ["Rezears"], "rating": 1895, "team": "Ikkaku", "country": "de", "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "juicy", "players": ["juicy"], "rating": 1886, "team": "Geekay Esports", "country": "fr", "color": "blue", "logo": "logos/GK.png"},
   {"name": "Firstkiller", "players": ["Firstkiller"], "rating": 1920, "team": "Shopify Rebellion", "country": "us", "color": "red", "logo": "logos/SR.png"},
   {"name": "osaft", "players": ["osaft"], "rating": 1868, "team": "DEFAULT", "country": "de", "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "trk511", "players": ["trk511"], "rating": 1918, "team": "Twisted Minds", "country": "sa", "color": "green", "logo": "logos/TWIS.png"},
   {"name": "swiftt.", "players": ["swiftt."], "rating": 1859, "team": "FURIA", "country": "br", "color": "yellow", "logo": "logos/FUR.png"},
-  {"name": "Nush", "players": ["Nush"], "rating": 1870, "team": "DEFAULT", "country": "sa", "color": "green", "logo": "logos/STL.png"}
+  {"name": "Nush", "players": ["Nush"], "rating": 1870, "team": "DEFAULT", "country": "sa", "color": "green", "logo": "logos/DEFAULT.png"}
 ]
