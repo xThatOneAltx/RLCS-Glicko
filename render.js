@@ -67,7 +67,7 @@ function flagUrl(countryCode) {
 }
 
 const TEAMS_LAST_UPDATED = "November 9 - Coupe de France Day 4";
-const PLAYERS_LAST_UPDATED = "November 9 - Coupe de France Day 4";
+const PLAYERS_LAST_UPDATED = "November 4 - Coupe de France Day 3";
 
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
