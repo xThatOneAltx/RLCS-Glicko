@@ -10,6 +10,7 @@
   {"name": "BIG Clan", "players": ["Tox", "osaft", "Nico"], "rating": 1771, "color": "blue", "logo": "logos/BIG.png"},
   {"name": "Kaydop Corp", "players": ["Mozzarella", "Radosin", "ejby"], "rating": 1795, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Ikkaku", "players": ["ExoTiiK", "yujin", "Rezears"], "rating": 1893, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "EU", "players": ["Placeholder", "2", "3"], "rating": 1000, "color": "blue", "logo": "logos/DEFAULT.png"},
   
   {"name": "NRG", "players": ["Wahvey", "frosty", "2Piece"], "rating": 1839, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "solar", "zach"], "rating": 1855, "color": "red", "logo": "logos/SSG.png"},
