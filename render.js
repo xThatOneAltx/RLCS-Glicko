@@ -66,8 +66,8 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
-const TEAMS_LAST_UPDATED = "November 9 - Coupe de France Day 4";
-const PLAYERS_LAST_UPDATED = "November 4 - Coupe de France Day 3";
+const TEAMS_LAST_UPDATED = "November 9";
+const PLAYERS_LAST_UPDATED = "November 4";
 
 function setLastUpdated() {
   const t = document.getElementById("teams-updated");
