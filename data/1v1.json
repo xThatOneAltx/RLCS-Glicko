@@ -13,6 +13,6 @@
   {"name": "Firstkiller", "players": ["Firstkiller"], "rating": 1920, "team": "Shopify Rebellion", "country": "us", "color": "red", "logo": "logos/SR.png"},
   {"name": "osaft", "players": ["osaft"], "rating": 1916, "team": "Big Clan", "country": "de", "color": "blue", "logo": "logos/BIG.png"},
   {"name": "trk511", "players": ["trk511"], "rating": 1918, "team": "Twisted Minds", "country": "sa", "color": "green", "logo": "logos/TWIS.png"},
-  {"name": "swiftt.", "players": ["swiftt."], "rating": 1858, "team": "FURIA", "country": "br", "color": "yellow", "logo": "logos/FUR.png"},
+  {"name": "swiftt.", "players": ["swiftt."], "rating": 1857, "team": "FURIA", "country": "br", "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "Nush", "players": ["Nush"], "rating": 1870, "team": "DEFAULT", "country": "sa", "color": "green", "logo": "logos/DEFAULT.png"}
 ]
