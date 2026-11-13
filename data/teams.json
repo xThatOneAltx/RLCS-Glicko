@@ -24,6 +24,7 @@
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 2096, "color": "green", "logo": "logos/FLCN.png"},
   {"name": "5Head", "players": ["Abdullah", "M7md", "DrKnown"], "rating": 1813, "color": "green", "logo": "logos/5H.png"},
   {"name": "NOT", "players": ["Nush", "Trook", "ops"], "rating": 1832, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "Team X", "players": ["Suspect", "T7LM", "Twiz"], "rating": 1756, "color": "green", "logo": "logos/TX.png"},
   {"name": "Placeholder", "players": ["DrKnown", "ops", "Suspect"], "rating": 1600, "color": "green", "logo": "logos/DEFAULT.png"},
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "kv1"], "rating": 1856, "color": "yellow", "logo": "logos/FUR.png"},
