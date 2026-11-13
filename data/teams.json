@@ -22,8 +22,8 @@
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "Ghaazi"], "rating": 1950, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 2096, "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "5Head", "players": ["Abdullah", "M7md", "DrKnown"], "rating": 1848, "color": "green", "logo": "logos/5H.png"},
-  {"name": "NOT", "players": ["Nush", "Trook", "ops"], "rating": 1835, "color": "green", "logo": "logos/DEFAULT.png"},
+  {"name": "5Head", "players": ["Abdullah", "M7md", "DrKnown"], "rating": 1813, "color": "green", "logo": "logos/5H.png"},
+  {"name": "NOT", "players": ["Nush", "Trook", "ops"], "rating": 1832, "color": "green", "logo": "logos/DEFAULT.png"},
   {"name": "Placeholder", "players": ["DrKnown", "ops", "Suspect"], "rating": 1600, "color": "green", "logo": "logos/DEFAULT.png"},
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "kv1"], "rating": 1856, "color": "yellow", "logo": "logos/FUR.png"},
