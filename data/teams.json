@@ -15,9 +15,9 @@
   {"name": "NRG", "players": ["Wahvey", "frosty", "2Piece"], "rating": 1839, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "solar", "zach"], "rating": 1855, "color": "red", "logo": "logos/SSG.png"},
   {"name": "Shopify Rebellion", "players": ["Firstkiller", "Daniel", "Atomic"], "rating": 1979, "color": "red", "logo": "logos/SR.png"},
-  {"name": "M80", "players": ["Motta", "Joreuz", "DRUFINHO"], "rating": 1802, "color": "red", "logo": "logos/M80.png"},
+  {"name": "M80", "players": ["Motta", "Joreuz", "DRUFINHO"], "rating": 1761, "color": "red", "logo": "logos/M80.png"},
   {"name": "FUT Esports", "players": ["Lj", "jstn.", "CHEESE."], "rating": 1902, "color": "red", "logo": "logos/FUT.png"},
-  {"name": "Next2Nu Esports", "players": ["PNDH", "majicbear", "Evoh"], "rating": 1721, "color": "red", "logo": "logos/N2N.png"},
+  {"name": "Next2Nu Esports", "players": ["PNDH", "majicbear", "Evoh"], "rating": 1717, "color": "red", "logo": "logos/N2N.png"},
   {"name": "Gen.G Mobil1 Racing", "players": ["BeastMode", "tawk", "Chronic"], "rating": 1933, "color": "red", "logo": "logos/GENG.png"},
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "Ghaazi"], "rating": 1950, "color": "green", "logo": "logos/TWIS.png"},
@@ -28,7 +28,7 @@
   {"name": "Placeholder", "players": ["DrKnown", "ops", "Suspect"], "rating": 1600, "color": "green", "logo": "logos/DEFAULT.png"},
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "kv1"], "rating": 1856, "color": "yellow", "logo": "logos/FUR.png"},
-  {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1831, "color": "yellow", "logo": "logos/MIBR.png"},
+  {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1807, "color": "yellow", "logo": "logos/MIBR.png"},
   {"name": "BS+COMPETITION", "players": ["kv1", "crn", "wisty"], "rating": 1500, "color": "yellow", "logo": "logos/BSC.png"},
   {"name": "FaZe Clan", "players": ["Lostt.", "Bemmz", "crn"], "rating": 1729, "color": "yellow", "logo": "logos/FAZE.png"},
 
