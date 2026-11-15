@@ -8,7 +8,7 @@
   {"name": "All Gamers Global", "players": ["Archie", "Joyo", "oaly."], "rating": 1895, "color": "blue", "logo": "logos/AGAL.png"},
   {"name": "Team Heretics", "players": ["AtomiK", "ajg", "DORITO"], "rating": 1779, "color": "blue", "logo": "logos/HER.png"},
   {"name": "BIG Clan", "players": ["Tox", "osaft", "Nico"], "rating": 1771, "color": "blue", "logo": "logos/BIG.png"},
-  {"name": "Kaydop Corp", "players": ["Mozzarella", "Radosin", "ejby"], "rating": 1795, "color": "blue", "logo": "logos/DEFAULT.png"},
+  {"name": "Radosin Corp", "players": ["Mozzarella", "Radosin", "ejby"], "rating": 1795, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "Ikkaku", "players": ["ExoTiiK", "yujin", "Rezears"], "rating": 1881, "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "EU", "players": ["Placeholder", "2", "3"], "rating": 1000, "color": "blue", "logo": "logos/DEFAULT.png"},
   
