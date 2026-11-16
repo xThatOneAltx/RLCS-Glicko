@@ -29,7 +29,7 @@
   
   {"name": "FURIA", "players": ["yANXNZ", "swiftt.", "kv1"], "rating": 1856, "color": "yellow", "logo": "logos/FUR.png"},
   {"name": "MIBR", "players": ["Reysbull", "Sad", "Aztrø"], "rating": 1765, "color": "yellow", "logo": "logos/MIBR.png"},
-  {"name": "PCS Stride", "players": ["droppz", "suco", "wisty"], "rating": 1723, "color": "yellow", "logo": "logos/BSC.png"},
+  {"name": "PCS Stride", "players": ["droppz", "suco", "wisty"], "rating": 1723, "color": "yellow", "logo": "logos/PCS.png"},
   {"name": "FaZe Clan", "players": ["Lostt.", "Bemmz", "crn"], "rating": 1729, "color": "yellow", "logo": "logos/FAZE.png"},
 
   {"name": "Wildcard", "players": ["bananahead", "Caleb", "hntr"], "rating": 1685, "color": "magenta", "logo": "logos/WC.png"},
