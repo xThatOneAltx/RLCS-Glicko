@@ -1,8 +1,8 @@
 [
   {"name": "Nwpo", "players": ["Nwpo"], "rating": 1994, "team": "Twisted Minds", "country": "sa", "color": "green", "logo": "logos/TWIS.png"},
-  {"name": "nass", "players": ["nass"], "rating": 2105, "team": "Team Vitality", "country": "ma", "color": "blue", "logo": "logos/VIT.png"},
+  {"name": "nass", "players": ["nass"], "rating": 2186, "team": "Team Vitality", "country": "ma", "color": "blue", "logo": "logos/VIT.png"},
   {"name": "Rw9", "players": ["Rw9"], "rating": 1933, "team": "Team Falcons", "country": "sa", "color": "green", "logo": "logos/FLCN.png"},
-  {"name": "zen", "players": ["zen"], "rating": 2016, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/M8.png"},
+  {"name": "zen", "players": ["zen"], "rating": 2007, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/M8.png"},
   {"name": "Mawkzy", "players": ["Mawkzy"], "rating": 1989, "team": "DEFAULT", "country": "fr", "color": "blue", "logo": "logos/DEFAULT.png"},
   {"name": "dralii", "players": ["dralii"], "rating": 1958, "team": "Team Falcons", "country": "ma", "color": "green", "logo": "logos/FLCN.png"},
   {"name": "Atow.", "players": ["Atow."], "rating": 1935, "team": "Gentle Mates", "country": "fr", "color": "blue", "logo": "logos/M8.png"},
