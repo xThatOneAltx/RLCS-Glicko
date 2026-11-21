@@ -66,7 +66,7 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
-const TEAMS_LAST_UPDATED = "November 20 - EU LCQ GSL Stage";
+const TEAMS_LAST_UPDATED = "November 21 - EU LCQ Playoffs Day 1";
 const PLAYERS_LAST_UPDATED = "November 15 - MENA/NA/SAM LCQs";
 
 function setLastUpdated() {
