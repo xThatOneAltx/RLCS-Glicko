@@ -66,7 +66,7 @@ function flagUrl(countryCode) {
   return `https://flagcdn.com/w40/${String(countryCode).toLowerCase()}.png`;
 }
 
-const TEAMS_LAST_UPDATED = "November 22, 2026";
+const TEAMS_LAST_UPDATED = "November 23, The Chalked Rank Day 1";
 const PLAYERS_LAST_UPDATED = "November 22, 2026";
 
 function setLastUpdated() {
