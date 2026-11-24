@@ -15,10 +15,10 @@
   {"name": "NRG", "players": ["Wahvey", "frosty", "2Piece"], "rating": 1829, "color": "red", "logo": "logos/NRG.png"},
   {"name": "Spacestation Gaming", "players": ["reveal", "solar", "zach"], "rating": 1923, "color": "red", "logo": "logos/SSG.png"},
   {"name": "Shopify Rebellion", "players": ["Firstkiller", "Daniel", "Atomic"], "rating": 2000, "color": "red", "logo": "logos/SR.png"},
-  {"name": "M80", "players": ["Motta", "Joreuz", "DRUFINHO"], "rating": 1829, "color": "red", "logo": "logos/M80.png"},
+  {"name": "M80", "players": ["Motta", "Joreuz", "DRUFINHO"], "rating": 1825, "color": "red", "logo": "logos/M80.png"},
   {"name": "FUT Esports", "players": ["Lj", "jstn.", "CHEESE."], "rating": 1883, "color": "red", "logo": "logos/FUT.png"},
   {"name": "Next2Nu Esports", "players": ["PNDH", "majicbear", "Evoh"], "rating": 1689, "color": "red", "logo": "logos/N2N.png"},
-  {"name": "Gen.G Mobil1 Racing", "players": ["BeastMode", "tawk", "Chronic"], "rating": 1914, "color": "red", "logo": "logos/GENG.png"},
+  {"name": "Gen.G Mobil1 Racing", "players": ["BeastMode", "tawk", "Chronic"], "rating": 1922, "color": "red", "logo": "logos/GENG.png"},
 
   {"name": "Twisted Minds", "players": ["trk511", "Nwpo", "Ghaazi"], "rating": 1952, "color": "green", "logo": "logos/TWIS.png"},
   {"name": "Team Falcons", "players": ["Rw9", "Kiileerrz", "dralii"], "rating": 2101, "color": "green", "logo": "logos/FLCN.png"},
