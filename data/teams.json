@@ -33,7 +33,7 @@
   {"name": "FaZe Clan", "players": ["Lostt.", "Bemmz", "crn"], "rating": 1735, "color": "yellow", "logo": "logos/FAZE.png"},
 
   {"name": "Wildcard", "players": ["bananahead", "Caleb", "hntr"], "rating": 1688, "color": "magenta", "logo": "logos/WC.png"},
-  {"name": "PWR", "players": ["gus", "Fever", "Fibérr"], "rating": 1722, "color": "magenta", "logo": "logos/PWR.png"},
+  {"name": "PWR", "players": ["gus", "Fever", "Fibérr"], "rating": 1712, "color": "magenta", "logo": "logos/PWR.png"},
 
   {"name": "Wolves Esports", "players": ["Sphinx", "Catalysm", "Kevin"], "rating": 1720, "color": "cyan", "logo": "logos/WLV.png"}
 ]
